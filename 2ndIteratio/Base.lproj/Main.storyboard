@@ -346,7 +346,7 @@
                                 <rect key="frame" x="9" y="91" width="366" height="529"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">1. Are you connecting this feeling to a memory?                                             yes/no                                                    2. Does it come from a storage of many of this type of feelings?                                yea/no                                                     3. Does this feeling remind you of an old, early hurtful experience?                                 yes/no                                                    4. Is an old emotional memory being triggered by this feeling?                                      yes/no                                                     5. Is an imaginary emotion, an emotional memory from the past, mistakenly being confused as directly related to the present? (Real and imaginary feelings feel the same. Only the rational brain can tell the difference.)                                        yes/no                                         </string>
+                                <mutableString key="text">1. Are you connecting this feeling to a memory?                                             yes/no                                                    2. Does it come from a storage of many of this type of feelings?                                yes/no                                                     3. Does this feeling remind you of an old, early hurtful experience?                                 yes/no                                                    4. Is an old emotional memory being triggered by this feeling?                                      yes/no                                                     5. Is an imaginary emotion, an emotional memory from the past, mistakenly being confused as directly related to the present? (Real and imaginary feelings feel the same. Only the rational brain can tell the difference.)                                        yes/no                                         </mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1294,7 +1294,7 @@ Cg
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-180" y="-228"/>
+            <point key="canvasLocation" x="-228" y="-166"/>
         </scene>
         <!--HurtView Controller-->
         <scene sceneID="NGf-Sq-jqn">
@@ -1505,7 +1505,148 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bYP-jx-X0T" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-959.20000000000005" y="1482.9085457271365"/>
+            <point key="canvasLocation" x="-956" y="1482"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="gYZ-NZ-8Y2">
+            <objects>
+                <viewController id="Z8f-56-A8N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="i0r-Kt-U94"/>
+                        <viewControllerLayoutGuide type="bottom" id="5kM-fC-TLV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f2c-Rd-WIn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w3h-ah-cfD">
+                                <rect key="frame" x="27" y="28" width="348" height="631"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">*This is the CARDINAL RULE, to deal with and hopefully resolve pain at the moment it arises. It is remarkably simple.                                        *Awareness in the moment is the key to feeling your feelings and not numbing thus distorting them.                                          *The real feeling leads you to being brave; the false perception leads to panic. Following this RULE is the source of EMOTIONAL MATURITY.                   *Stripped to their basics, feelings arouse only two sensations:  pain and pleasure. We tend to avoid pain and seek pleasure.             
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FuX-yI-O27" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="476" y="2731"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oUj-e0-jZm">
+            <objects>
+                <viewController id="24n-nt-rYs" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3YZ-2W-sKh"/>
+                        <viewControllerLayoutGuide type="bottom" id="8TN-GU-Kbd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="E91-Tj-2qJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dnS-ix-Ssf">
+                                <rect key="frame" x="16" y="28" width="359" height="619"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.67878228190000001" green="1" blue="0.95488086660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">*To be free of the past requires you to resolve and release the stuck thoughts and feelings that keep you in emotional debt.                                             *This debt is an accumulation of unresolved  feelings that require resolution, completion and release.                               *These old feelings cause you to distort your perspective of the present.                                *The origin of these issues can go back to your very first memories or any unexpressed, suppressed injury.                                         *The goal is for you to become open to your feelings.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pQ0-R0-aYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1220" y="2812"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3K3-Wc-FiH">
+            <objects>
+                <viewController id="0Tn-ah-vHw" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="YdY-jR-c69"/>
+                        <viewControllerLayoutGuide type="bottom" id="NcY-HB-DMP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="688-Qr-Oep">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tEv-dz-1Gc">
+                                <rect key="frame" x="16" y="0.0" width="359" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">*Holding your feelings inside causes a blind spot on that issue, a defense against that hurt that becomes part of your "false self" or the armor that stops your access to feelings to the extent that you keep them buried.                          *We are capable of behaving in unconscious ways from that false self, that contradicts what we are consciously aware of, because that part of the self was formed in the past.                                        *At one point in your history it helped you get through conflict, but since that time of need, you and the world have changed, while the false self stayed fixed in that time.                                             </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rm2-o1-SAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1878" y="2944"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="oZj-UG-Led">
+            <objects>
+                <viewController id="JD9-ef-9c8" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9KA-AQ-fFO"/>
+                        <viewControllerLayoutGuide type="bottom" id="MMG-iW-hAF"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wK3-eZ-hKO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AlO-ke-VFI">
+                                <rect key="frame" x="29" y="20" width="317" height="617"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.84187666360000002" blue="0.9673404055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">*What you are willing to take responsibility for gets you to the truth that frees you from past hurts.                           *You can be emotionally free and mature only if you assume responsibility for your emotions as a right and a privilege, not as a duty or burden.                       *Releasing claims the past has on you will help you be more resolved in your journey's lessons, and complete in your expressing feelings in each moment which will reduce emotional                                  indebtedness as well as immaturity.   </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PHC-04-gCB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2508" y="3120"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="2WB-f9-WYC">
+            <objects>
+                <viewController id="LcR-QG-y6L" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PbY-Kq-Up1"/>
+                        <viewControllerLayoutGuide type="bottom" id="0mS-ME-NBs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bYk-Nd-dbc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dSk-iK-Bz0">
+                                <rect key="frame" x="31" y="43" width="313" height="567"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.78438068459999999" green="1" blue="0.80494969780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <string key="text">*Pain is an inevitable part of life, thus the wise suffer with the purpose to learn.                                  *You don't have to look outside for the truth (except for the triggers); it is within you in how you feel, your truth.                                *We're not taught to talk about our feelings openly to facilitate healthy connections.                           *Self-therapy is not the answer to life; but being honest is actually and ultimately the answer to the problems of the world.                                     </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mfs-j0-25c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3105" y="3259"/>
         </scene>
         <!--Learn View Controller-->
         <scene sceneID="uxJ-OD-v6N">
@@ -1519,21 +1660,34 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                         <rect key="frame" x="0.0" y="64" width="375" height="1936"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXc-p2-EbH">
-                                <rect key="frame" x="20" y="0.0" width="335" height="1936"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXc-p2-EbH">
+                                <rect key="frame" x="20" y="0.0" width="335" height="1311"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="314-CL-qKO">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="1852"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="335" height="1341"/>
                                         <subviews>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLl-02-u3i" userLabel="BasicFeelingPathway">
-                                                <rect key="frame" x="0.0" y="0.0" width="335" height="196.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="335" height="313.5"/>
                                                 <color key="backgroundColor" red="0.98138855810000003" green="0.98278105640000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="This App utilizes the science of emotion toward the goal of Emotional Maturity, and introduces you to The Feeling Pathway, ">
+                                                    <fragment content="Toward the goal of Emotional Maturity,  you will learn ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="THE">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="25" name="PTSerif-Regular"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1542,10 +1696,87 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="to help you speak your feelings so you can practice good mental health.">
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="FEELING">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="PATHWAY to help you speak your feelings so you can practice  good mental health">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="18" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="so ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="15" name="Times-Roman"/>
+                                                            <font key="NSFont" size="15" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="15" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <integer key="NSUnderline" value="1"/>
+                                                            <color key="NSUnderlineColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="please learn in order tp to">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="15" name="PTSerif-Regular"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1555,10 +1786,37 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                             <color key="NSUnderlineColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="                                                ">
+                                                    <fragment content=" practice good mental health.">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="15" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="15" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <integer key="NSUnderline" value="1"/>
+                                                            <color key="NSUnderlineColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="            ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="18" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="                ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="18" name="PTSerif-Regular"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1567,11 +1825,48 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
+                                                    <fragment content="                                          ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="18" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="                  ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="18" name="PTSerif-Regular"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="  ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
                                                     <fragment content="BASIC F">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="PTSerif-Regular"/>
                                                             <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
                                                             </paragraphStyle>
@@ -1583,8 +1878,9 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
 </string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="PTSerif-Regular"/>
                                                             <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
                                                             </paragraphStyle>
@@ -1592,12 +1888,12 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment>
-                                                        <string key="content">A loss in the future is perceived as fear/anxiety A loss in the present is felt as hurt A loss in the past is experienced as anger.</string>
+                                                    <fragment content="A loss in the future is perceived as fear A loss in the present is felt as hurt A loss in the past is experienced as anger.">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="19" name="PTSerif-Regular"/>
                                                             <real key="NSKern" value="0.0"/>
+                                                            <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
                                                             </paragraphStyle>
@@ -1609,14 +1905,14 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43a-kW-IXK" userLabel="The cardinal rule,">
-                                                <rect key="frame" x="0.0" y="196.5" width="335" height="363"/>
+                                                <rect key="frame" x="0.0" y="313.5" width="335" height="166.5"/>
                                                 <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
                                                     <fragment content="The measure of good mental health =  ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Bold"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="18" name="Times-Bold"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1624,11 +1920,10 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment>
-                                                        <string key="content">the least amount of time that it takes for you to tell the person who hurt you that they hurt you - equals the most emotional health you'll maintain.</string>
+                                                    <fragment content="the least amount of time that it takes for you to tell the person who hurt you that they hurt you ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="18" name="Times-Roman"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
@@ -1636,10 +1931,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment>
-                                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
+                                                    <fragment content="&amp;">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="18" name="Times-Roman"/>
@@ -1649,171 +1941,15 @@ Cg
                                                             </paragraphStyle>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment>
-                                                        <string key="content">This is the cardinal rule, to deal with and hopefully resolve pain at the moment it arises. It is remarkably simple.                                       </string>
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content=" ">
+                                                    <fragment content=" equals the most emotional health you'll maintain.">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <font key="NSOriginalFont" size="18" name="Times-Roman"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
                                                             </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="Awareness in the moment">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Italic"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Italic"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content=" is the ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="key">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Bold"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Bold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content=" to feeling your feelings and not numbing them.                         ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="Stripped to their basics, feelings arouse only two sensations:  pain and pleasure. We tend to ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="avoid pain and seek pleasure">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Italic"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Italic"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content=".  ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="           ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="The real feeling leads you to being brave; the false perception leads to panic. ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="Following this rule is the source of EMOTIONAL MATURITY.">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="Times-Roman"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </attributes>
                                                     </fragment>
                                                 </attributedString>
@@ -1823,17 +1959,40 @@ Cg
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfJ-aF-9Kp">
-                                                <rect key="frame" x="0.0" y="559.5" width="335" height="371"/>
+                                                <rect key="frame" x="0.0" y="480" width="335" height="332.5"/>
                                                 <color key="backgroundColor" red="0.67878228190000001" green="1" blue="0.95488086660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="335" id="MSP-IE-AuV"/>
                                                 </constraints>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="EMOTIONAL MATURITY is ">
+                                                    <fragment content="EMOTIONAL MATURITY is">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content=" freedom from ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                            <real key="NSStrokeWidth" value="0.0"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                    <fragment content="emotional ">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1842,11 +2001,10 @@ Cg
                                                         </attributes>
                                                     </fragment>
                                                     <fragment>
-                                                        <string key="content">emotional freedom, the natural feeling state of being evolved. This freedom allows you to respond honestly to events in the present without interference from prejudices from the past. It is the result of dealing with life's upsets as they occur instead of avoiding or evading, or otherwise defending against feeling the pain of them.
-To be free of the past requires you to resolve and release the stuck thoughts and feelings that keep you in emotional debt. This debt is an accumulation of unresolved  feelings that require resolution, completion and release. These old feelings cause you to distort your perspective of the present. The origin of these issues can go back to your very first memories or any unexpressed, suppressed injury.</string>
+                                                        <string key="content">issues of your past.                                                  *This freedom allows you to respond honestly to events in the present without interference from prejudices from the past.                                    *It is the result of dealing with life's upsets as they occur instead of avoiding or evading, &amp; otherwise defending against feeling the pain of them.</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1862,16 +2020,15 @@ To be free of the past requires you to resolve and release the stuck thoughts an
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifg-OU-LdE">
-                                                <rect key="frame" x="0.0" y="930.5" width="335" height="391"/>
+                                                <rect key="frame" x="0.0" y="812.5" width="335" height="194"/>
                                                 <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
-                                                        <string key="content">Holding your feelings inside causes a blind spot on that issue, a defense against that hurt that becomes part of your false self; the armor that stops your access to feelings to the extent that you keep them buried. We are capable of behaving in unconscious ways, from that false self, that contradicts what we are consciously aware of, because that part of the self was formed in the past. At one point in your history it helped you get through conflict, but since that time of need, you and the world have changed, while the false self stayed fixed in that time.                            The goal is for you to become open to your feelings.
-Acceptance of a previously concealed truth opens the way for being in the moment.                                             If you don’t understand the feelings beneath your actions, you don’t truly understand yourself at all.</string>
+                                                        <string key="content">*Acceptance of a previously concealed truth opens the way for being in the moment.                                             *If you don’t understand the feelings beneath your actions, you don’t truly understand yourself at all.</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1887,40 +2044,15 @@ Acceptance of a previously concealed truth opens the way for being in the moment
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uf-S2-dGZ">
-                                                <rect key="frame" x="0.0" y="1321.5" width="335" height="299.5"/>
+                                                <rect key="frame" x="0.0" y="1006.5" width="335" height="166.5"/>
                                                 <color key="backgroundColor" red="1" green="0.84187666360000002" blue="0.9673404055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
                                                     <fragment>
-                                                        <string key="content">What you are willing to take responsibility for gets you to the truth that frees you from past hurts. You can be emotionally free and mature only if you assume responsibility for your emotions as a right and a privilege, not as a duty or burden. </string>
+                                                        <string key="content">EMOTIONAL MATURITY frees you of insecurities from the past, allows you to be able to focus on the present, thus better able to decide what’s best for you.</string>
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">Releasing claims the past has on you will help you be more resolved in your journey's lessons, and complete in your expressing feelings in each moment which will reduce emotional</string>
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">                                  indebtedness as well as immaturity.                                   EMOTIONAL MATURITY frees you of insecurities from the past, allows you to be able to focus on the present, thus better able to decide what’s best for you.</string>
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="Times-Roman"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1936,38 +2068,14 @@ Acceptance of a previously concealed truth opens the way for being in the moment
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLa-ec-Pq3">
-                                                <rect key="frame" x="0.0" y="1621" width="335" height="231"/>
+                                                <rect key="frame" x="0.0" y="1173" width="335" height="168"/>
                                                 <color key="backgroundColor" red="0.78438068464957089" green="1" blue="0.80494969784955495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
-                                                    <fragment content="Self-therapy is not the answer to life; but being honest is actually and ultimately the answer to the problems of the world. ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">We're not taught to talk about our feelings. You don't have to look outside for the truth (except for the triggers); it is within you in how you feel.  Pain is an inevitable part of life, thus the wise suffer with purpose to learn. </string>
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="18" name="Times-Roman"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="EMOTIONAL MATURITY brings EMOTIONAL FREEDOM">
+                                                    <fragment content=" EMOTIONAL FREEDOM results from ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="16" name="Arial-BoldMT"/>
+                                                            <font key="NSFont" size="25" name="ArialMT"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1976,10 +2084,21 @@ Acceptance of a previously concealed truth opens the way for being in the moment
                                                             <real key="NSStrokeWidth" value="0.0"/>
                                                         </attributes>
                                                     </fragment>
+                                                    <fragment content="EMOTIONAL MATURITY">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.33333000000000002" green="0.33333000000000002" blue="0.33333000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" size="25" name="ArialMT"/>
+                                                            <real key="NSKern" value="0.0"/>
+                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                <tabStops/>
+                                                            </paragraphStyle>
+                                                            <color key="NSStrokeColor" red="0.33333000000000002" green="0.33333000000000002" blue="0.33333000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        </attributes>
+                                                    </fragment>
                                                     <fragment content=" ">
                                                         <attributes>
                                                             <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="12" name="Times-Roman"/>
+                                                            <font key="NSFont" size="25" name="ArialMT"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -1991,7 +2110,7 @@ Acceptance of a previously concealed truth opens the way for being in the moment
                                                     <fragment content="which is the natural feeling state of the evolved, emotionally mature person.">
                                                         <attributes>
                                                             <color key="NSColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="deviceRGB"/>
-                                                            <font key="NSFont" size="16" name="ArialMT"/>
+                                                            <font key="NSFont" size="25" name="ArialMT"/>
                                                             <real key="NSKern" value="0.0"/>
                                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
                                                                 <tabStops/>
@@ -2058,7 +2177,7 @@ Acceptance of a previously concealed truth opens the way for being in the moment
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-228" y="2082"/>
+            <point key="canvasLocation" x="-228" y="2081.5592203898054"/>
         </scene>
         <!--Page1View Controller-->
         <scene sceneID="fNl-0j-B6h">
@@ -2453,7 +2572,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="39" y="28" width="282" height="619"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">1. Have you resolved and fulfilled yourself with regard to your sexual identity?               2. Are you aware that anxiety is not for paralysis, but preparation?                              3.  Is your attention focused without the fear of failure?                               4.  Are you aware that your strength comes from seeing the obstacle and reaching within for resolve?                     5. Do you unerstand that courage is knowing the necessity of a thing?</string>
+                                <string key="text">1. Have you resolved and fulfilled yourself with regard to your sexual identity?               2. Are you aware that anxiety is not for paralysis, but preparation?                              3.  Is your attention focused without the fear of failure?                               4.  Are you aware that your strength comes from seeing the obstacle and reaching within for resolve?                     5. Do you understand that courage is knowing the necessity of a thing?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2481,7 +2600,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="43" y="28" width="296" height="619"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">1. Have you come to terms with your own mortality?                                    2. Do you know that the difference between a fantasy of bravery and rousing your courage from slumber is the difference between escaping and being alive?                                3. Are you in touch with what you were unprepared for in your feeling response?             4. Are you aware of what you couldn't articulate?                   5.  Was there sometjing that you know too little of?</string>
+                                <string key="text">1. Have you come to terms with your own mortality?                                    2. Do you know that the difference between a fantasy of bravery and rousing your courage from slumber is the difference between escaping and being alive?                                3. Are you in touch with what you were unprepared for in your feeling response?             4. Are you aware of what you couldn't articulate?                   5.  Was there something that you know too little of?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2509,7 +2628,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="16" y="20" width="291" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">1. Is the degree of your self-involvemnet inhibiting to the process of helping others?                       2. Do you deal with this loss by suffering and holding it in?  3.  Do you deal with this loss by overreacting?                       4'  Do you deal with this loss by complaining?                        5.  Do you deal with this loss by expressing it though acting it out?      </string>
+                                <string key="text">1. Is the degree of your self-involvement inhibiting to the process of helping others?                       2. Do you deal with this loss by suffering and holding it in?  3.  Do you deal with this loss by overreacting?                       4.  Do you deal with this loss by complaining?                        5.  Do you deal with this loss by expressing it through acting it out?      </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2537,7 +2656,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="29" y="28" width="278" height="609"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">1. Are you aware of your avoidance?                                2. Do you think you make your pain worse?                               3. Do you think what you do about your feeling is effective?                                   4. Do you feel sorry for yourself?                                    5. Does the other person know how youe've felt hurt?</string>
+                                <string key="text">1. Are you aware of your avoidance?                                2. Do you think you make your pain worse?                               3. Do you think what you do about your feeling is effective?                                   4. Do you feel sorry for yourself?                                    5. Does the other person know how you've felt hurt?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2565,7 +2684,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="33" y="20" width="326" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">1. Have you resolved and fulfilled yourself with regard to yourself as a loving person?                                              2. Are you afraid of losing love, control or esteem if you express this feeling drectly?                                                                                                                      3.  Is there a lot of past alive in this present feeling?             4. Do you feel empty, vulnerable or embarrased?       5. Do you feel guarde and protective against this hurt feeling?</mutableString>
+                                <mutableString key="text">1. Have you resolved and fulfilled yourself with regard to yourself as a loving person?                                              2. Are you afraid of losing love, control or esteem if you express this feeling directly?                                                                                                                      3.  Is there a lot of past alive in this present feeling?             4. Do you feel empty, vulnerable or embarrassed?       5. Do you feel guarded and protective against this hurt feeling?</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2620,7 +2739,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="47" y="20" width="260" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">1. Is the degree of your self-involvemnet productive to the process of helping others to see you?                                     2. Is this feeling informing you?                                          3. Are you ready to tell the truth about this feeling?                                          4. Are you willing to find out if the person who hurt you cares enough or is able to respond to your need for them to not do that again?                         5. Are you willing to set a boundary on the behavior?</mutableString>
+                                <mutableString key="text">1. Is the degree of your self-involvement productive to the process of helping others to see you?                                     2. Is this feeling informing you?                                          3. Are you ready to tell the truth about this feeling?                                          4. Are you willing to find out if the person who hurt you cares enough or is able to respond to your need for them to not do that again?                         5. Are you willing to set a boundary on the behavior?</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2676,7 +2795,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="16" y="20" width="302" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">1. Do you know what the catastrophies are that you fear?                                          2. Do you Idnetify with thie statement, "Courage comes from facing reality" ?                                                  3. Do you see a message in this pain?                                    4. Do you feel obliged to resolve the conflict and loss?                                                                     5. Are you aware what thing you value has been taken away?</string>
+                                <string key="text">1. Do you know what the catastrophes are that you fear?                                          2. Do you identify with the statement, "Courage comes from facing reality" ?                                                  3. Do you see a message in this pain?                                    4. Do you feel obliged to resolve the conflict and loss?                                                                     5. Are you aware what thing you value has been taken away?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2700,7 +2819,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="1. Is there a traumatic event that you are racting to?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UIH-DL-yts">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="1. Is there a traumatic event that you are reacting to?" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UIH-DL-yts">
                                 <rect key="frame" x="16" y="20" width="291" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -2821,9 +2940,10 @@ To be free of emotional debt you must understand the meaning of your feelings an
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VCh-ah-sTM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-956" y="37"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="B5k-Cq-uhP"/>
+        <segue reference="Mpc-lL-JWE"/>
     </inferredMetricsTieBreakers>
 </document>
