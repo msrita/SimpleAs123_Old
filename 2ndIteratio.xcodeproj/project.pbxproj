@@ -13,6 +13,7 @@
 		5C1CCAC71F2D19E8009C6D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1CCAC51F2D19E8009C6D58 /* LaunchScreen.storyboard */; };
 		5C1CCACF1F2D1B34009C6D58 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1CCACE1F2D1B34009C6D58 /* LearnViewController.swift */; };
 		5C71D0F11F8C867E001B3E8A /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C71D0F01F8C867E001B3E8A /* EntryViewController.swift */; };
+		5CD5E9701FDA4C0700CC6A75 /* LongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD5E96F1FDA4C0700CC6A75 /* LongTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5C1CCAC81F2D19E8009C6D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C1CCACE1F2D1B34009C6D58 /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LearnViewController.swift; path = ../LearnViewController.swift; sourceTree = "<group>"; };
 		5C71D0F01F8C867E001B3E8A /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		5CD5E96F1FDA4C0700CC6A75 /* LongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5C1CCACE1F2D1B34009C6D58 /* LearnViewController.swift */,
 				5C1CCABC1F2D19E8009C6D58 /* AppDelegate.swift */,
 				5C1CCAC01F2D19E8009C6D58 /* Main.storyboard */,
+				5CD5E96F1FDA4C0700CC6A75 /* LongTableViewController.swift */,
 				5C71D0F01F8C867E001B3E8A /* EntryViewController.swift */,
 				5C1CCAC31F2D19E8009C6D58 /* Assets.xcassets */,
 				5C1CCAC51F2D19E8009C6D58 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 				5C1CCABD1F2D19E8009C6D58 /* AppDelegate.swift in Sources */,
 				5C1CCACF1F2D1B34009C6D58 /* LearnViewController.swift in Sources */,
 				5C71D0F11F8C867E001B3E8A /* EntryViewController.swift in Sources */,
+				5CD5E9701FDA4C0700CC6A75 /* LongTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

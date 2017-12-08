@@ -43,10 +43,10 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rq1-nA-PqR">
-                                        <rect key="frame" x="0.0" y="0.0" width="187.5" height="603"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="188" height="603"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2E-DX-1Ym" userLabel="Start" colorLabel="IBBuiltInLabel-Blue">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="301.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="188" height="302"/>
                                                 <color key="backgroundColor" red="0.65743549568020487" green="1" blue="0.64288188962350068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="1. Name It"/>
@@ -55,7 +55,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cdr-Kq-974" userLabel="Learn" colorLabel="IBBuiltInLabel-Red">
-                                                <rect key="frame" x="0.0" y="301.5" width="187.5" height="301.5"/>
+                                                <rect key="frame" x="0.0" y="302" width="188" height="301"/>
                                                 <color key="backgroundColor" red="1" green="0.60288282342492749" blue="0.89148803466462734" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="BASICS">
@@ -63,16 +63,16 @@
                                                     <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
-                                                    <segue destination="R9B-ra-mrm" kind="show" id="QIc-Zg-bSG"/>
+                                                    <segue destination="GMb-Eo-ONx" kind="show" id="fG9-kl-UZZ"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="UAR-kF-YT6">
-                                        <rect key="frame" x="187.5" y="0.0" width="187.5" height="603"/>
+                                        <rect key="frame" x="188" y="0.0" width="187" height="603"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbe-zn-Msl" userLabel="Assess" colorLabel="IBBuiltInLabel-Purple">
-                                                <rect key="frame" x="0.0" y="0.0" width="187.5" height="301.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="187" height="302"/>
                                                 <color key="backgroundColor" red="1" green="0.63778145339548953" blue="0.56072440259967571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="2. Process It">
@@ -83,7 +83,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4a-ko-nR5" userLabel="Record" colorLabel="IBBuiltInLabel-Green">
-                                                <rect key="frame" x="0.0" y="301.5" width="187.5" height="301.5"/>
+                                                <rect key="frame" x="0.0" y="302" width="187" height="301"/>
                                                 <color key="backgroundColor" red="0.67878228193493517" green="1" blue="0.95488086660358407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="3. Release It"/>
@@ -346,7 +346,7 @@
                                 <rect key="frame" x="9" y="91" width="366" height="529"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">1. Are you connecting this feeling to a memory?                                             yes/no                                                    2. Does it come from a storage of many of this type of feelings?                                yes/no                                                     3. Does this feeling remind you of an old, early hurtful experience?                                 yes/no                                                    4. Is an old emotional memory being triggered by this feeling?                                      yes/no                                                     5. Is an imaginary emotion, an emotional memory from the past, mistakenly being confused as directly related to the present? (Real and imaginary feelings feel the same. Only the rational brain can tell the difference.)                                        yes/no                                         </mutableString>
+                                <string key="text">1. Are you connecting this feeling to a memory?                                             yes/no                                                    2. Does it come from a storage of many of this type of feelings?                                yes/no                                                     3. Does this feeling remind you of an old, early hurtful experience?                                 yes/no                                                    4. Is an old emotional memory being triggered by this feeling?                                      yes/no                                                     5. Is an imaginary emotion, an emotional memory from the past, mistakenly being confused as directly related to the present? (Real and imaginary feelings feel the same. Only the rational brain can tell the difference.)                                        yes/no                                         </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -405,7 +405,7 @@
                                 <rect key="frame" x="0.0" y="142" width="375" height="492"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">1. Does this feeling cause a sense of self-consiousness. awkwardness?                            yes/no                                                 2. Does this feeling cause a sense of low self-esteem insecurity?                                             yes/no                                             3. Does this feeling cause you to feel impulsive?                                    yes/no                                                      4. Was there a triggering event that caused this feeling?                                      yes/no                                                       5. Do you feel someone misguided you?                                     yes/no               </string>
+                                <string key="text">1. Does this feeling cause a sense of self-consciousness, awkwardness?                            yes/no                                                 2. Does this feeling cause a sense of low self-esteem insecurity?                                             yes/no                                             3. Does this feeling cause you to feel impulsive?                                    yes/no                                                      4. Was there a triggering event that caused this feeling?                                      yes/no                                                       5. Do you feel someone misguided you?                                     yes/no               </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1519,22 +1519,36 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w3h-ah-cfD">
-                                <rect key="frame" x="27" y="28" width="348" height="631"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="w3h-ah-cfD">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
                                 <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <string key="text">*This is the CARDINAL RULE, to deal with and hopefully resolve pain at the moment it arises. It is remarkably simple.                                        *Awareness in the moment is the key to feeling your feelings and not numbing thus distorting them.                                          *The real feeling leads you to being brave; the false perception leads to panic. Following this RULE is the source of EMOTIONAL MATURITY.                   *Stripped to their basics, feelings arouse only two sensations:  pain and pleasure. We tend to avoid pain and seek pleasure.             
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="X3T-o9-Mce" appends="YES" id="oEs-PS-fOB"/>
+                                </connections>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="w3h-ah-cfD" secondAttribute="trailing" id="66s-wW-agS"/>
+                            <constraint firstItem="w3h-ah-cfD" firstAttribute="top" secondItem="f2c-Rd-WIn" secondAttribute="topMargin" id="S4a-oD-Dc7"/>
+                            <constraint firstItem="w3h-ah-cfD" firstAttribute="leading" secondItem="f2c-Rd-WIn" secondAttribute="leadingMargin" id="kIG-Vk-Cj7"/>
+                            <constraint firstItem="5kM-fC-TLV" firstAttribute="top" secondItem="w3h-ah-cfD" secondAttribute="bottom" id="mm9-U1-eyd"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FuX-yI-O27" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="X3T-o9-Mce">
+                    <connections>
+                        <segue destination="nkq-c9-7Ys" kind="show" id="ZDH-Qi-3mG"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="476" y="2731"/>
+            <point key="canvasLocation" x="500" y="1482"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oUj-e0-jZm">
@@ -1548,21 +1562,35 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dnS-ix-Ssf">
-                                <rect key="frame" x="16" y="28" width="359" height="619"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dnS-ix-Ssf">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
                                 <color key="backgroundColor" red="0.67878228190000001" green="1" blue="0.95488086660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <string key="text">*To be free of the past requires you to resolve and release the stuck thoughts and feelings that keep you in emotional debt.                                             *This debt is an accumulation of unresolved  feelings that require resolution, completion and release.                               *These old feelings cause you to distort your perspective of the present.                                *The origin of these issues can go back to your very first memories or any unexpressed, suppressed injury.                                         *The goal is for you to become open to your feelings.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ysa-2q-pBG" appends="YES" id="qDA-Wa-ZVP"/>
+                                </connections>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="dnS-ix-Ssf" secondAttribute="trailing" id="02b-al-Ktx"/>
+                            <constraint firstItem="dnS-ix-Ssf" firstAttribute="top" secondItem="E91-Tj-2qJ" secondAttribute="topMargin" id="2Bk-br-2bN"/>
+                            <constraint firstItem="dnS-ix-Ssf" firstAttribute="leading" secondItem="E91-Tj-2qJ" secondAttribute="leadingMargin" id="ZKj-gJ-ddm"/>
+                            <constraint firstItem="8TN-GU-Kbd" firstAttribute="top" secondItem="dnS-ix-Ssf" secondAttribute="bottom" id="yKp-4c-rta"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pQ0-R0-aYR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ysa-2q-pBG">
+                    <connections>
+                        <segue destination="jR3-8G-Z2h" kind="show" id="kfe-Ul-uMH"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1220" y="2812"/>
+            <point key="canvasLocation" x="573.60000000000002" y="2327.5862068965521"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3K3-Wc-FiH">
@@ -1576,21 +1604,35 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tEv-dz-1Gc">
-                                <rect key="frame" x="16" y="0.0" width="359" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tEv-dz-1Gc">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
                                 <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <string key="text">*Holding your feelings inside causes a blind spot on that issue, a defense against that hurt that becomes part of your "false self" or the armor that stops your access to feelings to the extent that you keep them buried.                          *We are capable of behaving in unconscious ways from that false self, that contradicts what we are consciously aware of, because that part of the self was formed in the past.                                        *At one point in your history it helped you get through conflict, but since that time of need, you and the world have changed, while the false self stayed fixed in that time.                                             </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="6Rn-lX-4EV" appends="YES" id="lqP-2B-O0D"/>
+                                </connections>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tEv-dz-1Gc" firstAttribute="top" secondItem="688-Qr-Oep" secondAttribute="topMargin" id="0aZ-Nc-tUL"/>
+                            <constraint firstItem="NcY-HB-DMP" firstAttribute="top" secondItem="tEv-dz-1Gc" secondAttribute="bottom" id="6VA-E1-bJl"/>
+                            <constraint firstItem="tEv-dz-1Gc" firstAttribute="leading" secondItem="688-Qr-Oep" secondAttribute="leadingMargin" id="GZM-FD-Xdc"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tEv-dz-1Gc" secondAttribute="trailing" id="TE3-fK-t0l"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rm2-o1-SAC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="6Rn-lX-4EV">
+                    <connections>
+                        <segue destination="gFr-HF-sop" kind="show" id="VxF-yv-x4t"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="1878" y="2944"/>
+            <point key="canvasLocation" x="500" y="3233.4332833583212"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="oZj-UG-Led">
@@ -1608,17 +1650,26 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                 <rect key="frame" x="29" y="20" width="317" height="617"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.84187666360000002" blue="0.9673404055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <string key="text">*What you are willing to take responsibility for gets you to the truth that frees you from past hurts.                           *You can be emotionally free and mature only if you assume responsibility for your emotions as a right and a privilege, not as a duty or burden.                       *Releasing claims the past has on you will help you be more resolved in your journey's lessons, and complete in your expressing feelings in each moment which will reduce emotional                                  indebtedness as well as immaturity.   </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jYy-9W-tgn" appends="YES" id="fb8-Mn-oka"/>
+                                </connections>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PHC-04-gCB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="jYy-9W-tgn">
+                    <connections>
+                        <segue destination="oHX-aV-p3n" kind="show" id="6sM-fS-YYK"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2508" y="3120"/>
+            <point key="canvasLocation" x="2073" y="1622"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2WB-f9-WYC">
@@ -1632,42 +1683,632 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dSk-iK-Bz0">
-                                <rect key="frame" x="31" y="43" width="313" height="567"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dSk-iK-Bz0">
+                                <rect key="frame" x="16" y="64" width="343" height="603"/>
                                 <color key="backgroundColor" red="0.78438068459999999" green="1" blue="0.80494969780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <gestureRecognizers/>
                                 <string key="text">*Pain is an inevitable part of life, thus the wise suffer with the purpose to learn.                                  *You don't have to look outside for the truth (except for the triggers); it is within you in how you feel, your truth.                                *We're not taught to talk about our feelings openly to facilitate healthy connections.                           *Self-therapy is not the answer to life; but being honest is actually and ultimately the answer to the problems of the world.                                     </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="gxD-oV-his" appends="YES" id="7vV-tN-yj5"/>
+                                </connections>
                             </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dSk-iK-Bz0" firstAttribute="top" secondItem="PbY-Kq-Up1" secondAttribute="bottom" id="7wM-8I-QFO"/>
+                            <constraint firstItem="dSk-iK-Bz0" firstAttribute="leading" secondItem="bYk-Nd-dbc" secondAttribute="leadingMargin" id="KOH-Pj-Nr7"/>
+                            <constraint firstItem="0mS-ME-NBs" firstAttribute="top" secondItem="dSk-iK-Bz0" secondAttribute="bottom" id="SoH-Mm-8em"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dSk-iK-Bz0" secondAttribute="trailing" id="vtl-6V-WxR"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mfs-j0-25c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="gxD-oV-his">
+                    <connections>
+                        <segue destination="iSJ-f3-h6g" kind="show" id="w2c-um-0FL"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="3105" y="3259"/>
+            <point key="canvasLocation" x="2237.5999999999999" y="2932.9835082458771"/>
+        </scene>
+        <!--Long Table View Controller-->
+        <scene sceneID="Sp2-BB-3jL">
+            <objects>
+                <tableViewController storyboardIdentifier="LongTableViewController" id="GMb-Eo-ONx" customClass="LongTableViewController" customModule="_ndIteratio" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="G3c-gx-aVq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="Y23-4Y-ueS">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="3yy-GQ-LJF">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3yy-GQ-LJF" id="UmW-K0-ewk">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DBl-Ax-bmC" userLabel="BasicFeelingPathway">
+                                                    <rect key="frame" x="20" y="0.0" width="335" height="43.5"/>
+                                                    <color key="backgroundColor" red="0.98138855810000003" green="0.98278105640000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <gestureRecognizers/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Toward the goal of Emotional Maturity,  you will learn ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="THE">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="FEELING">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="PATHWAY to help you speak your feelings so you can practice  good mental health">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="18" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="so ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="15" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="15" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                                <color key="NSUnderlineColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="please learn in order  to">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="15" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                                <color key="NSUnderlineColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" practice good mental health.">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="15" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="15" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <integer key="NSUnderline" value="1"/>
+                                                                <color key="NSUnderlineColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="            ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="18" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="                ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="                                          ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="18" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="                  ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="18" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="  ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="18" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="BASIC F">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment>
+                                                            <string key="content">EELING PATHWAY
+</string>
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="A loss in the future is perceived as fear A loss in the present is felt as hurt A loss in the past is experienced as anger.">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="19" name="PTSerif-Regular"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="25" name="PTSerif-Regular"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="DBl-Ax-bmC" secondAttribute="trailing" constant="20" id="cQ1-9k-3Os"/>
+                                                <constraint firstItem="DBl-Ax-bmC" firstAttribute="leading" secondItem="UmW-K0-ewk" secondAttribute="leading" constant="20" id="gbB-Sj-ASC"/>
+                                                <constraint firstItem="DBl-Ax-bmC" firstAttribute="top" secondItem="UmW-K0-ewk" secondAttribute="top" id="vdJ-BA-4fI"/>
+                                                <constraint firstAttribute="bottom" secondItem="DBl-Ax-bmC" secondAttribute="bottom" id="wZS-K4-UAK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="kHg-fS-5Dj">
+                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kHg-fS-5Dj" id="F8H-sT-XHL">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9F-ip-W5n" userLabel="The cardinal rule,">
+                                                    <rect key="frame" x="20" y="0.0" width="335" height="43.5"/>
+                                                    <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <gestureRecognizers/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="The measure of good mental health =  ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="18" name="Times-Bold"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="the least amount of time that it takes for you to tell the person who hurt you that they hurt you ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="18" name="Times-Roman"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="&amp;">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="18" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" equals the most emotional health you'll maintain.">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <font key="NSOriginalFont" size="18" name="Times-Roman"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="i9F-ip-W5n" secondAttribute="bottom" id="CWk-BR-bgu"/>
+                                                <constraint firstAttribute="trailing" secondItem="i9F-ip-W5n" secondAttribute="trailing" constant="20" id="alj-CI-TdL"/>
+                                                <constraint firstItem="i9F-ip-W5n" firstAttribute="top" secondItem="F8H-sT-XHL" secondAttribute="top" id="ciF-Cn-nGO"/>
+                                                <constraint firstItem="i9F-ip-W5n" firstAttribute="leading" secondItem="F8H-sT-XHL" secondAttribute="leading" constant="20" id="rIQ-lC-7k9"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Z8f-56-A8N" kind="show" id="HyC-Ob-Nsk"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="8uw-IU-scg">
+                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8uw-IU-scg" id="1uj-et-Wae">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAJ-rJ-sXB">
+                                                    <rect key="frame" x="20" y="0.0" width="335" height="43.5"/>
+                                                    <color key="backgroundColor" red="0.67878228190000001" green="1" blue="0.95488086660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <gestureRecognizers/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="EMOTIONAL MATURITY is">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" freedom from ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="emotional ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment>
+                                                            <string key="content">issues of your past.                                                  *This freedom allows you to respond honestly to events in the present without interference from prejudices from the past.                                    *It is the result of dealing with life's upsets as they occur instead of avoiding or evading, &amp; otherwise defending against feeling the pain of them.</string>
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="DAJ-rJ-sXB" firstAttribute="top" secondItem="1uj-et-Wae" secondAttribute="top" id="3GV-EW-7MS"/>
+                                                <constraint firstItem="DAJ-rJ-sXB" firstAttribute="leading" secondItem="1uj-et-Wae" secondAttribute="leading" constant="20" id="9d8-4P-bAp"/>
+                                                <constraint firstAttribute="bottom" secondItem="DAJ-rJ-sXB" secondAttribute="bottom" id="kIG-j0-jMf"/>
+                                                <constraint firstAttribute="trailing" secondItem="DAJ-rJ-sXB" secondAttribute="trailing" constant="20" id="x6e-jM-aXz"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="24n-nt-rYs" kind="show" id="egj-h0-BpG"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="ZVH-PY-amG">
+                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZVH-PY-amG" id="LcJ-M1-jnK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Jn-j0-J1l">
+                                                    <rect key="frame" x="20" y="0.0" width="335" height="43.5"/>
+                                                    <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <gestureRecognizers/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment>
+                                                            <string key="content">*Acceptance of a previously concealed truth opens the way for being in the moment.                                             *If you don’t understand the feelings beneath your actions, you don’t truly understand yourself at all.</string>
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="0Jn-j0-J1l" firstAttribute="top" secondItem="LcJ-M1-jnK" secondAttribute="top" id="3oX-kw-Ozq"/>
+                                                <constraint firstItem="0Jn-j0-J1l" firstAttribute="leading" secondItem="LcJ-M1-jnK" secondAttribute="leading" constant="20" id="4wq-tT-TXp"/>
+                                                <constraint firstAttribute="trailing" secondItem="0Jn-j0-J1l" secondAttribute="trailing" constant="20" id="V0d-me-dIE"/>
+                                                <constraint firstAttribute="bottom" secondItem="0Jn-j0-J1l" secondAttribute="bottom" id="ktk-7l-tFg"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="0Tn-ah-vHw" kind="show" id="YTb-cN-59M"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="k2E-9k-ggc">
+                                        <rect key="frame" x="0.0" y="176" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k2E-9k-ggc" id="ohC-GL-SY6">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdD-ih-A5C">
+                                                    <rect key="frame" x="20" y="0.0" width="335" height="43.5"/>
+                                                    <color key="backgroundColor" red="1" green="0.84187666360000002" blue="0.9673404055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <gestureRecognizers/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment>
+                                                            <string key="content">EMOTIONAL MATURITY frees you of insecurities from the past, allows you to be able to focus on the present, thus better able to decide what’s best for you.</string>
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="Times-Roman"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="AdD-ih-A5C" firstAttribute="leading" secondItem="ohC-GL-SY6" secondAttribute="leading" constant="20" id="2k9-8b-Ict"/>
+                                                <constraint firstItem="AdD-ih-A5C" firstAttribute="top" secondItem="ohC-GL-SY6" secondAttribute="top" id="S0r-7f-QvV"/>
+                                                <constraint firstAttribute="bottom" secondItem="AdD-ih-A5C" secondAttribute="bottom" id="he9-9z-i6x"/>
+                                                <constraint firstAttribute="trailing" secondItem="AdD-ih-A5C" secondAttribute="trailing" constant="20" id="mfX-uC-JdC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="JD9-ef-9c8" kind="show" id="Poo-Jv-WbL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="8yC-yA-xEc">
+                                        <rect key="frame" x="0.0" y="220" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8yC-yA-xEc" id="fkx-An-Yaf">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHL-pN-cJg">
+                                                    <rect key="frame" x="20" y="0.0" width="335" height="43.5"/>
+                                                    <color key="backgroundColor" red="0.78438068459999999" green="1" blue="0.80494969780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <gestureRecognizers/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content=" EMOTIONAL FREEDOM results from ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="ArialMT"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="EMOTIONAL MATURITY">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.33333000000000002" green="0.33333000000000002" blue="0.33333000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="25" name="ArialMT"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.33333000000000002" green="0.33333000000000002" blue="0.33333000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content=" ">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="ArialMT"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                        <fragment content="which is the natural feeling state of the evolved, emotionally mature person.">
+                                                            <attributes>
+                                                                <color key="NSColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="deviceRGB"/>
+                                                                <font key="NSFont" size="25" name="ArialMT"/>
+                                                                <real key="NSKern" value="0.0"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="12" minimumLineHeight="14" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
+                                                                    <tabStops/>
+                                                                </paragraphStyle>
+                                                                <color key="NSStrokeColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="deviceRGB"/>
+                                                                <real key="NSStrokeWidth" value="0.0"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="fHL-pN-cJg" secondAttribute="trailing" constant="20" id="28E-iE-bUU"/>
+                                                <constraint firstItem="fHL-pN-cJg" firstAttribute="top" secondItem="fkx-An-Yaf" secondAttribute="top" id="X5i-8s-1w9"/>
+                                                <constraint firstAttribute="bottom" secondItem="fHL-pN-cJg" secondAttribute="bottom" id="twj-8a-I0S"/>
+                                                <constraint firstItem="fHL-pN-cJg" firstAttribute="leading" secondItem="fkx-An-Yaf" secondAttribute="leading" constant="20" id="vKb-2d-5Q7"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="LcR-QG-y6L" kind="show" id="mCc-NT-98v"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="GMb-Eo-ONx" id="z14-XR-egL"/>
+                            <outlet property="delegate" destination="GMb-Eo-ONx" id="sTA-mn-pJS"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NWo-J6-bia" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-255" y="2046"/>
         </scene>
         <!--Learn View Controller-->
         <scene sceneID="uxJ-OD-v6N">
             <objects>
-                <viewController title="Learn View Controller" automaticallyAdjustsScrollViewInsets="NO" id="R9B-ra-mrm" sceneMemberID="viewController">
+                <viewController title="Learn View Controller" id="R9B-ra-mrm" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="heD-Ho-YdR"/>
                         <viewControllerLayoutGuide type="bottom" id="UxG-Wv-SV4"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ZBv-5v-lZv">
-                        <rect key="frame" x="0.0" y="64" width="375" height="1936"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vXc-p2-EbH">
-                                <rect key="frame" x="20" y="0.0" width="335" height="1311"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXc-p2-EbH">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="314-CL-qKO">
-                                        <rect key="frame" x="0.0" y="0.0" width="335" height="1341"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="a8b-ok-UPT">
+                                        <rect key="frame" x="0.0" y="64" width="3961" height="236"/>
                                         <subviews>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KLl-02-u3i" userLabel="BasicFeelingPathway">
-                                                <rect key="frame" x="0.0" y="0.0" width="335" height="313.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="3961" height="96"/>
                                                 <color key="backgroundColor" red="0.98138855810000003" green="0.98278105640000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
@@ -1773,7 +2414,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                             <color key="NSUnderlineColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         </attributes>
                                                     </fragment>
-                                                    <fragment content="please learn in order tp to">
+                                                    <fragment content="please learn in order  to">
                                                         <attributes>
                                                             <color key="NSColor" red="0.21961" green="0.46274999999999999" blue="0.11373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <font key="NSFont" size="15" name="PTSerif-Regular"/>
@@ -1905,7 +2546,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43a-kW-IXK" userLabel="The cardinal rule,">
-                                                <rect key="frame" x="0.0" y="313.5" width="335" height="166.5"/>
+                                                <rect key="frame" x="0.0" y="96" width="3961" height="28"/>
                                                 <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
@@ -1959,12 +2600,9 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mfJ-aF-9Kp">
-                                                <rect key="frame" x="0.0" y="480" width="335" height="332.5"/>
+                                                <rect key="frame" x="0.0" y="124" width="3961" height="28"/>
                                                 <color key="backgroundColor" red="0.67878228190000001" green="1" blue="0.95488086660000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="335" id="MSP-IE-AuV"/>
-                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="EMOTIONAL MATURITY is">
                                                         <attributes>
@@ -2020,7 +2658,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifg-OU-LdE">
-                                                <rect key="frame" x="0.0" y="812.5" width="335" height="194"/>
+                                                <rect key="frame" x="0.0" y="152" width="3961" height="28"/>
                                                 <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
@@ -2044,7 +2682,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uf-S2-dGZ">
-                                                <rect key="frame" x="0.0" y="1006.5" width="335" height="166.5"/>
+                                                <rect key="frame" x="0.0" y="180" width="3961" height="28"/>
                                                 <color key="backgroundColor" red="1" green="0.84187666360000002" blue="0.9673404055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
@@ -2068,7 +2706,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                                 </connections>
                                             </label>
                                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lLa-ec-Pq3">
-                                                <rect key="frame" x="0.0" y="1173" width="335" height="168"/>
+                                                <rect key="frame" x="0.0" y="208" width="3961" height="28"/>
                                                 <color key="backgroundColor" red="0.78438068464957089" green="1" blue="0.80494969784955495" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <gestureRecognizers/>
                                                 <attributedString key="attributedText">
@@ -2129,55 +2767,31 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="314-CL-qKO" firstAttribute="leading" secondItem="vXc-p2-EbH" secondAttribute="leading" id="FYS-d1-nLX"/>
-                                    <constraint firstItem="314-CL-qKO" firstAttribute="top" secondItem="vXc-p2-EbH" secondAttribute="top" id="JKa-Si-nlu"/>
-                                    <constraint firstAttribute="bottom" secondItem="314-CL-qKO" secondAttribute="bottom" id="NS2-o9-qqq"/>
-                                    <constraint firstAttribute="trailing" secondItem="314-CL-qKO" secondAttribute="trailing" id="Sdt-sq-Zhv"/>
-                                    <constraint firstItem="314-CL-qKO" firstAttribute="width" secondItem="vXc-p2-EbH" secondAttribute="width" id="uIx-kQ-hYU"/>
+                                    <constraint firstAttribute="trailing" secondItem="a8b-ok-UPT" secondAttribute="trailing" id="18i-6M-ViD"/>
+                                    <constraint firstItem="a8b-ok-UPT" firstAttribute="leading" secondItem="vXc-p2-EbH" secondAttribute="leading" id="1K9-v7-2lv"/>
+                                    <constraint firstAttribute="bottom" secondItem="a8b-ok-UPT" secondAttribute="bottom" constant="303" id="PvX-RK-sIV"/>
+                                    <constraint firstItem="a8b-ok-UPT" firstAttribute="top" secondItem="vXc-p2-EbH" secondAttribute="top" constant="64" id="S2S-OT-ZCY"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="vXc-p2-EbH" firstAttribute="leading" secondItem="ZBv-5v-lZv" secondAttribute="leading" constant="20" id="9UE-Ki-zqg"/>
-                            <constraint firstItem="UxG-Wv-SV4" firstAttribute="top" secondItem="vXc-p2-EbH" secondAttribute="bottom" id="DHi-7w-fdb"/>
-                            <constraint firstAttribute="trailing" secondItem="vXc-p2-EbH" secondAttribute="trailing" constant="20" id="Jga-6F-D0F"/>
-                            <constraint firstItem="vXc-p2-EbH" firstAttribute="top" secondItem="heD-Ho-YdR" secondAttribute="bottom" id="RiI-sk-sgn"/>
+                            <constraint firstAttribute="bottom" secondItem="vXc-p2-EbH" secondAttribute="bottom" id="U96-jA-Sqg"/>
+                            <constraint firstItem="vXc-p2-EbH" firstAttribute="top" secondItem="heD-Ho-YdR" secondAttribute="bottom" id="knI-er-YJO"/>
+                            <constraint firstItem="vXc-p2-EbH" firstAttribute="leading" secondItem="ZBv-5v-lZv" secondAttribute="leading" id="l9L-lt-oPx"/>
+                            <constraint firstAttribute="trailing" secondItem="vXc-p2-EbH" secondAttribute="trailing" id="myJ-1N-rmQ"/>
                         </constraints>
                     </view>
-                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
-                    <navigationItem key="navigationItem" title="Click on a paragraph COLOR to read more " id="Gmm-JR-ebX"/>
-                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="375" height="2000"/>
+                    <navigationItem key="navigationItem" title="Click COLOR paragraph to read more " id="Gmm-JR-ebX"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rVT-S7-WAZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="tHC-zg-1rf" userLabel="Page1TapRecognizer">
-                    <connections>
-                        <segue destination="nkq-c9-7Ys" kind="show" id="FWM-L6-nHL"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="3Ir-iI-Ron" userLabel="Page2TapRecognizer">
-                    <connections>
-                        <segue destination="jR3-8G-Z2h" kind="show" id="iMb-vV-4We"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="EEe-hB-tcD" userLabel="Page3TapRecognizer">
-                    <connections>
-                        <segue destination="gFr-HF-sop" kind="show" id="NYh-K3-kra"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="Rpt-us-MaK" userLabel="Page4TapRecognizer">
-                    <connections>
-                        <segue destination="oHX-aV-p3n" kind="show" id="JzF-MK-dUI"/>
-                    </connections>
-                </tapGestureRecognizer>
-                <tapGestureRecognizer id="fEe-er-WUT" userLabel="Page5TapRecognizer">
-                    <connections>
-                        <segue destination="iSJ-f3-h6g" kind="show" id="n50-9y-4fR"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="tHC-zg-1rf" userLabel="Page1TapRecognizer_mauve"/>
+                <tapGestureRecognizer id="3Ir-iI-Ron" userLabel="Page2TapRecognizer_aqua"/>
+                <tapGestureRecognizer id="EEe-hB-tcD" userLabel="Page3TapRecognizer_yellow"/>
+                <tapGestureRecognizer id="Rpt-us-MaK" userLabel="Page4TapRecognizer_pink"/>
+                <tapGestureRecognizer id="fEe-er-WUT" userLabel="Page5TapRecognizer_green"/>
             </objects>
-            <point key="canvasLocation" x="-228" y="2081.5592203898054"/>
+            <point key="canvasLocation" x="-2166" y="2837"/>
         </scene>
         <!--Page1View Controller-->
         <scene sceneID="fNl-0j-B6h">
@@ -2225,7 +2839,7 @@ Ten basic truths that can change your life (Emotional Resilience: Simple Truths 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9de-1t-clo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500" y="1591"/>
+            <point key="canvasLocation" x="1220" y="1482"/>
         </scene>
         <!--Page2View Controller-->
         <scene sceneID="VhC-e7-mRg">
@@ -2240,7 +2854,7 @@ Ten basic truths that can change your life (Emotional Resilience: Simple Truths 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tf3-6g-xF9">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
                                 <color key="backgroundColor" red="0.75030466939999996" green="1" blue="0.93662011349999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Emotional complexity can be reduced to a single progression of five feelings, represented by The Feeling Pathway, that gets repeated countless times in everyone’s life.
 The pathway begins in the present, where only pain and pleasure are felt.
@@ -2253,16 +2867,16 @@ Unexpressed, aged anger, redirects inward against the self or is sustained unpro
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Tf3-6g-xF9" firstAttribute="leading" secondItem="ua3-Wz-dQS" secondAttribute="leadingMargin" id="VYj-9e-lv9"/>
-                            <constraint firstItem="mGy-uf-VwJ" firstAttribute="top" secondItem="Tf3-6g-xF9" secondAttribute="bottom" id="Vjm-ya-aRN"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Tf3-6g-xF9" secondAttribute="trailing" id="ds4-cg-Q99"/>
-                            <constraint firstItem="Tf3-6g-xF9" firstAttribute="top" secondItem="8Mq-v2-HqW" secondAttribute="bottom" id="eI2-UH-Qmp"/>
+                            <constraint firstItem="Tf3-6g-xF9" firstAttribute="leading" secondItem="ua3-Wz-dQS" secondAttribute="leadingMargin" id="4T4-58-fGi"/>
+                            <constraint firstItem="Tf3-6g-xF9" firstAttribute="top" secondItem="ua3-Wz-dQS" secondAttribute="top" id="Pv4-HG-YPg"/>
+                            <constraint firstItem="Tf3-6g-xF9" firstAttribute="trailing" secondItem="ua3-Wz-dQS" secondAttribute="trailingMargin" id="UgZ-wd-l2D"/>
+                            <constraint firstItem="Tf3-6g-xF9" firstAttribute="bottom" secondItem="mGy-uf-VwJ" secondAttribute="top" id="ygA-ug-nnf"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ivj-kx-eXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1220" y="1828"/>
+            <point key="canvasLocation" x="1357.5999999999999" y="2414.8425787106448"/>
         </scene>
         <!--Page3View Controller-->
         <scene sceneID="n1C-c3-oW6">
@@ -2301,7 +2915,7 @@ Your true self is a witness that doesn't get stuck in drama or distracted by the
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="noA-AJ-oLA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1878" y="2058"/>
+            <point key="canvasLocation" x="1358" y="3233"/>
         </scene>
         <!--Page4View Controller-->
         <scene sceneID="KZ0-UM-nwu">
@@ -2339,7 +2953,7 @@ Your "road map," The Pathway, provided by this App helps the user learn to free
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uox-LP-WEP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2508" y="2233"/>
+            <point key="canvasLocation" x="2842" y="1621"/>
         </scene>
         <!--Page5View Controller-->
         <scene sceneID="oa3-ZJ-X6g">
@@ -2378,7 +2992,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clH-lv-AOE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3105" y="2388"/>
+            <point key="canvasLocation" x="2985" y="2910"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9nD-3Q-IMH">
@@ -2457,7 +3071,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddP-cH-8Df" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3766" y="2006"/>
+            <point key="canvasLocation" x="4682" y="2082"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NvT-7T-rCY">
@@ -2478,6 +3092,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="Acute">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="R1A-pJ-4Lc" kind="show" id="ERj-Rc-Nhg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTW-Ww-OWG">
                                 <rect key="frame" x="115" y="345" width="189" height="25"/>
@@ -2486,6 +3103,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="Aggressive">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="nDz-sw-Zb8" kind="show" id="7jk-CL-FyX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAY-Kf-tMW">
                                 <rect key="frame" x="118" y="251" width="122" height="23"/>
@@ -2494,6 +3114,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="Other">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="2Vs-Zn-FBs" kind="show" id="4Y4-4y-8dW"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjp-Dk-p2t">
                                 <rect key="frame" x="115" y="449" width="146" height="27"/>
@@ -2502,6 +3125,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="External">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="stA-9K-msS" kind="show" id="dPT-Su-aOU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdZ-QR-TKW">
                                 <rect key="frame" x="59" y="146" width="54" height="32"/>
@@ -2540,6 +3166,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="Real">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="lgA-Z9-bvL" kind="show" id="i2V-nn-874"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.91148029330144698" green="0.7671722870803992" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -2547,7 +3176,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hf2-KY-vDy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4537" y="1708"/>
+            <point key="canvasLocation" x="5334" y="929"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9W8-ni-Zv3">
@@ -2684,7 +3313,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="33" y="20" width="326" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">1. Have you resolved and fulfilled yourself with regard to yourself as a loving person?                                              2. Are you afraid of losing love, control or esteem if you express this feeling directly?                                                                                                                      3.  Is there a lot of past alive in this present feeling?             4. Do you feel empty, vulnerable or embarrassed?       5. Do you feel guarded and protective against this hurt feeling?</mutableString>
+                                <string key="text">1. Have you resolved and fulfilled yourself with regard to yourself as a loving person?                                              2. Are you afraid of losing love, control or esteem if you express this feeling directly?                                                                                                                      3.  Is there a lot of past alive in this present feeling?             4. Do you feel empty, vulnerable or embarrassed?       5. Do you feel guarded and protective against this hurt feeling?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2739,7 +3368,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="47" y="20" width="260" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <mutableString key="text">1. Is the degree of your self-involvement productive to the process of helping others to see you?                                     2. Is this feeling informing you?                                          3. Are you ready to tell the truth about this feeling?                                          4. Are you willing to find out if the person who hurt you cares enough or is able to respond to your need for them to not do that again?                         5. Are you willing to set a boundary on the behavior?</mutableString>
+                                <string key="text">1. Is the degree of your self-involvement productive to the process of helping others to see you?                                     2. Is this feeling informing you?                                          3. Are you ready to tell the truth about this feeling?                                          4. Are you willing to find out if the person who hurt you cares enough or is able to respond to your need for them to not do that again?                         5. Are you willing to set a boundary on the behavior?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2853,6 +3482,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="Chronic">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="qB8-Zb-YIU" kind="show" id="DiK-DA-ijn"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwW-7r-dFD">
                                 <rect key="frame" x="121" y="458" width="134" height="26"/>
@@ -2861,6 +3493,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="Internal">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="y1n-bI-ih2" kind="show" id="oGJ-dJ-8hA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X86-Ja-xSI">
                                 <rect key="frame" x="110" y="355" width="152" height="24"/>
@@ -2869,6 +3504,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="Passive">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="GuQ-mE-e8a" kind="show" id="H1x-XI-ShY"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tag-yv-vmT">
                                 <rect key="frame" x="133" y="232" width="61" height="55"/>
@@ -2877,6 +3515,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="Self">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="efZ-JT-nGr" kind="show" id="3cb-Jd-wp3"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBl-wC-1Hz">
                                 <rect key="frame" x="130" y="129" width="97" height="55"/>
@@ -2885,6 +3526,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <state key="normal" title="False">
                                     <color key="titleColor" red="0.2642083327276788" green="0.059524074991155675" blue="0.53175599093264247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="8Gk-1n-9AN" kind="show" id="wmO-13-KQ9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ThD-sH-Pth">
                                 <rect key="frame" x="75" y="140" width="47" height="30"/>
@@ -2922,7 +3566,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cex-Oj-fYL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4537" y="2415"/>
+            <point key="canvasLocation" x="5334" y="3181"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2bR-3s-sO5">
@@ -2944,6 +3588,6 @@ To be free of emotional debt you must understand the meaning of your feelings an
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Mpc-lL-JWE"/>
+        <segue reference="dRn-pQ-Kfy"/>
     </inferredMetricsTieBreakers>
 </document>
