@@ -13,6 +13,7 @@
 		5C1CCAC71F2D19E8009C6D58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1CCAC51F2D19E8009C6D58 /* LaunchScreen.storyboard */; };
 		5C1CCACF1F2D1B34009C6D58 /* LearnViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1CCACE1F2D1B34009C6D58 /* LearnViewController.swift */; };
 		5C71D0F11F8C867E001B3E8A /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C71D0F01F8C867E001B3E8A /* EntryViewController.swift */; };
+		5CC3DA0A2038D3C7005A10FD /* Main.storyboard_NewLandingPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3DA082038D3C7005A10FD /* Main.storyboard_NewLandingPage.storyboard */; };
 		5CD5E9701FDA4C0700CC6A75 /* LongTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD5E96F1FDA4C0700CC6A75 /* LongTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		5C1CCAC81F2D19E8009C6D58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C1CCACE1F2D1B34009C6D58 /* LearnViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LearnViewController.swift; path = ../LearnViewController.swift; sourceTree = "<group>"; };
 		5C71D0F01F8C867E001B3E8A /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		5CC3DA092038D3C7005A10FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard_NewLandingPage.storyboard; sourceTree = "<group>"; };
 		5CD5E96F1FDA4C0700CC6A75 /* LongTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LongTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,6 +63,7 @@
 				5C1CCACE1F2D1B34009C6D58 /* LearnViewController.swift */,
 				5C1CCABC1F2D19E8009C6D58 /* AppDelegate.swift */,
 				5C1CCAC01F2D19E8009C6D58 /* Main.storyboard */,
+				5CC3DA082038D3C7005A10FD /* Main.storyboard_NewLandingPage.storyboard */,
 				5CD5E96F1FDA4C0700CC6A75 /* LongTableViewController.swift */,
 				5C71D0F01F8C867E001B3E8A /* EntryViewController.swift */,
 				5C1CCAC31F2D19E8009C6D58 /* Assets.xcassets */,
@@ -102,6 +105,7 @@
 				TargetAttributes = {
 					5C1CCAB81F2D19E8009C6D58 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H6PYW4DPFW;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 				5C1CCAC71F2D19E8009C6D58 /* LaunchScreen.storyboard in Resources */,
 				5C1CCAC41F2D19E8009C6D58 /* Assets.xcassets in Resources */,
 				5C1CCAC21F2D19E8009C6D58 /* Main.storyboard in Resources */,
+				5CC3DA0A2038D3C7005A10FD /* Main.storyboard_NewLandingPage.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +171,14 @@
 				5C1CCAC61F2D19E8009C6D58 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC3DA082038D3C7005A10FD /* Main.storyboard_NewLandingPage.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC3DA092038D3C7005A10FD /* Base */,
+			);
+			name = Main.storyboard_NewLandingPage.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -266,9 +279,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H6PYW4DPFW;
 				INFOPLIST_FILE = 2ndIteratio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ritachart.com.-ndIteratio";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ritachart.simpleas123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -278,9 +292,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H6PYW4DPFW;
 				INFOPLIST_FILE = 2ndIteratio/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ritachart.com.-ndIteratio";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ritachart.simpleas123;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};

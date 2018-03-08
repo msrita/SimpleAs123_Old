@@ -45,18 +45,18 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="rq1-nA-PqR">
                                         <rect key="frame" x="0.0" y="0.0" width="187.5" height="603"/>
                                         <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2E-DX-1Ym" userLabel="1. Name It" colorLabel="IBBuiltInLabel-Blue">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k2E-DX-1Ym" userLabel="1. Name It    " colorLabel="IBBuiltInLabel-Blue">
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="151"/>
                                                 <color key="backgroundColor" red="0.65743549568020487" green="1" blue="0.64288188962350068" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="     1. Name It                                                                               "/>
+                                                <state key="normal" title="1. Name It                                                                               "/>
                                                 <connections>
                                                     <segue destination="83s-pl-bZu" kind="show" id="gBn-nB-tNc"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYQ-Gn-wJm">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItM-3W-7oJ">
                                                 <rect key="frame" x="0.0" y="151" width="187.5" height="150.5"/>
-                                                <color key="backgroundColor" red="0.83648948079999996" green="1" blue="0.85908162889999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.78438068459999999" green="1" blue="0.80494969780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Find the one word that locates the bothersome, puzzling or distressing feeling that has you stuck into 1 of the 5 categories of negative feelings</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -67,16 +67,15 @@
                                                 <color key="backgroundColor" red="1" green="0.60288282342492749" blue="0.89148803466462734" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                                 <state key="normal" title="BASICS">
-                                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                                 <connections>
                                                     <segue destination="GMb-Eo-ONx" kind="show" id="fG9-kl-UZZ"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read only if you're curious about the basic principles of Psych 101                               &quot;in a nutshell&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kv0-hr-K9e">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Read only if you're curious about the basic principles of Psych 101                               &quot;in a nutshell&quot;" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T83-Is-K84">
                                                 <rect key="frame" x="0.0" y="452.5" width="187.5" height="150.5"/>
-                                                <color key="backgroundColor" red="1" green="0.84187666360000002" blue="0.9673404055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -90,18 +89,16 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="187.5" height="151"/>
                                                 <color key="backgroundColor" red="1" green="0.63778145339548953" blue="0.56072440259967571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <state key="normal" title="2. Process It">
-                                                    <color key="titleShadowColor" red="0.36865293511522212" green="1" blue="0.46779182674132225" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                </state>
+                                                <state key="normal" title="2. Process It"/>
                                                 <connections>
                                                     <segue destination="mRV-LA-tvo" kind="show" id="Nw8-Yg-9Kw"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Jo-tY-E5y">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gSa-7g-5f2">
                                                 <rect key="frame" x="0.0" y="151" width="187.5" height="150.5"/>
                                                 <color key="backgroundColor" red="1" green="0.7757644481" blue="0.71439917630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <string key="text">Answer as many of the questions as you need to until you reach a place of knowing about this uncomfortable feeling. Keep sitting, staying with it, ansering Q's until you know it more clearly.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -114,11 +111,10 @@
                                                     <segue destination="ZGM-JH-LjJ" kind="show" id="TF7-sF-DXD"/>
                                                 </connections>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20a-ta-44s">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conclude with a statement of gratitude, a final sentence about what you appreciate about your life." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i0B-sx-dtT">
                                                 <rect key="frame" x="0.0" y="452.5" width="187.5" height="150.5"/>
                                                 <color key="backgroundColor" red="0.85181478560000001" green="0.98282226399999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <string key="text">Write your experience. Conclude with a statement of gratitude,       a final sentence about what you appreciate about your life.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -135,7 +131,7 @@
                             <constraint firstItem="L4l-hF-Ud8" firstAttribute="top" secondItem="ZbS-qx-Ep6" secondAttribute="bottom" id="qSZ-wX-uZ8"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="9N3-K1-lNF"/>
+                    <navigationItem key="navigationItem" title="Do in order, 1 - 2 - 3" id="9N3-K1-lNF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Qm-n8-OKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -239,7 +235,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="JTO-gp-uSf">
                                 <rect key="frame" x="0.0" y="90" width="321" height="557"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76034385989999997" green="0.8452000221" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Is is happening in your environment?                            yes/no                                        2. Is it happening in your community?                               yes/no                                        3. Is it happening in your family?                                       yes/no                                        4. Is it happening with someone you know?                  yes/no                                        5. Is it happening with someone you don't know but that's in your world?                  yes/no                 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -284,7 +280,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BrW-Db-Psb">
                                 <rect key="frame" x="7" y="102" width="352" height="527"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.87814413170000005" blue="0.84582891110000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Do you sense that your reasoning has shut down?        yes/no                                        2. Are you holding back from experiencing this emotion?      yes/no                                        3. Do you feel unsafe to speak up?                                             yes/no                                        4. Does it make you want to protect yourself?                yes/no                                        5. Are you in touch with feeling threatened by retaliation?                               yes/no</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -331,8 +327,8 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="owW-1K-hKT">
                                 <rect key="frame" x="0.0" y="91" width="359" height="556"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">1 . Can you feel the feeling in your body?                                   yes/no                                            2. Can you identify a thought underneath the feeling?               yes/no                                     3. Have you associated this emotion with any meaning?      yes/no                                     4. Have you given the this emotion a big meaning that has power over you?                       yes/no                                      5. Have you given this feeling the power to warn you?                                          yes/no</mutableString>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">1 . Can you feel the feeling in your body?                                   yes/no                                            2. Can you identify a thought underneath the feeling?               yes/no                                     3. Have you associated this emotion with any meaning?      yes/no                                     4. Have you given the this emotion a big meaning that has power over you?                       yes/no                                      5. Have you given this feeling the power to warn you?                                          yes/no</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -376,7 +372,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vo9-KM-5nL">
                                 <rect key="frame" x="9" y="91" width="366" height="529"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.74515199147792721" green="0.79316461141676409" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Are you connecting this feeling to a memory?                                             yes/no                                                    2. Does it come from a history of many of this type of feelings?                                yes/no                                                     3. Does this feeling remind you of an old, early hurtful experience?                                 yes/no                                                    4. Is an old emotional memory being triggered by this feeling?                                      yes/no                                                     5. Is it an emotional memory from the past, mistakenly being confused with current feelings? (Real and imaginary feelings feel the same. Only the rational brain can tell the difference.)                                        yes/no                                         </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -435,7 +431,7 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pL3-Wl-M97">
                                 <rect key="frame" x="0.0" y="142" width="375" height="492"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.78438068459999999" green="1" blue="0.80494969780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Does this feeling cause a sense of self-consciousness, awkwardness?                            yes/no                                                 2. Does this feeling cause a sense of low self-esteem or insecurity?                                             yes/no                                             3. Does this feeling cause you to feel impulsive?                                    yes/no                                                      4. Was there a triggering event that caused this feeling?                                      yes/no                                                       5. Do you feel someone misguided you?                                     yes/no               </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1506,7 +1502,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kHg-fS-5Dj" id="F8H-sT-XHL">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9F-ip-W5n" userLabel="The cardinal rule,">
@@ -1576,7 +1572,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8uw-IU-scg" id="1uj-et-Wae">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAJ-rJ-sXB">
@@ -1650,7 +1646,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZVH-PY-amG" id="LcJ-M1-jnK">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Jn-j0-J1l">
@@ -1690,7 +1686,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="176" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k2E-9k-ggc" id="ohC-GL-SY6">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdD-ih-A5C">
@@ -1730,7 +1726,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="220" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8yC-yA-xEc" id="fkx-An-Yaf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHL-pN-cJg">
@@ -2517,7 +2513,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
             </objects>
             <point key="canvasLocation" x="2985" y="2910"/>
         </scene>
-        <!--Click on Outside or Inside-->
+        <!--View Controller-->
         <scene sceneID="9nD-3Q-IMH">
             <objects>
                 <viewController id="ou2-lT-Jdm" sceneMemberID="viewController">
@@ -2530,20 +2526,20 @@ To be free of emotional debt you must understand the meaning of your feelings an
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="knb-x5-3a2">
-                                <rect key="frame" x="95" y="237" width="200" height="66"/>
+                                <rect key="frame" x="115" y="211" width="155" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="Outside">
-                                    <color key="titleColor" red="0.17874946878399606" green="0.53175599090000003" blue="0.14176379681965107" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="DOu-9j-6IN" kind="show" id="C6T-Mm-S4o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gUu-6A-YHV">
-                                <rect key="frame" x="90" y="362" width="205" height="66"/>
+                                <rect key="frame" x="106" y="392" width="164" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="67"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
                                 <state key="normal" title="Inside">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
@@ -2552,61 +2548,49 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwF-hI-Fdt">
-                                <rect key="frame" x="64" y="97" width="217" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="🕸Caution">
-                                    <color key="titleColor" red="0.17874946880000001" green="0.53175599090000003" blue="0.14176379680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieG-mL-otq">
-                                <rect key="frame" x="90" y="147" width="129" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="🌧Ouch!">
-                                    <color key="titleColor" red="0.17874946880000001" green="0.53175599090000003" blue="0.14176379680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uB-Nv-gDA">
-                                <rect key="frame" x="81" y="463" width="214" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="👽Suspicion">
-                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFy-qY-17S">
-                                <rect key="frame" x="81" y="517" width="183" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="38"/>
-                                <state key="normal" title="😿Oh No!">
-                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="668-Jx-a3z">
-                                <rect key="frame" x="81" y="555" width="254" height="55"/>
+                                <rect key="frame" x="106" y="140" width="51" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
-                                <state key="normal" title="👺You S.O.B.!">
-                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <state key="normal" title="🕸"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ieG-mL-otq">
+                                <rect key="frame" x="163" y="140" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🌧"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oh3-PK-qJL">
-                                <rect key="frame" x="90" y="199" width="164" height="30"/>
+                                <rect key="frame" x="231" y="140" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="🔥Damn It!">
-                                    <color key="titleColor" red="0.17874946880000001" green="0.53175599090000003" blue="0.14176379680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🔥"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9uB-Nv-gDA">
+                                <rect key="frame" x="106" y="511" width="49" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="👽"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GFy-qY-17S">
+                                <rect key="frame" x="165" y="511" width="54" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="😿"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="668-Jx-a3z">
+                                <rect key="frame" x="231" y="511" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="👺"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.75030466935192475" green="1" blue="0.93662011349788388" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Click on Outside or Inside" id="zWt-ZC-678"/>
+                    <navigationItem key="navigationItem" id="zWt-ZC-678"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ddP-cH-8Df" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4680.8000000000002" y="2081.1094452773614"/>
+            <point key="canvasLocation" x="4682" y="2082"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NvT-7T-rCY">
@@ -2621,72 +2605,97 @@ To be free of emotional debt you must understand the meaning of your feelings an
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdV-eS-hyr">
-                                <rect key="frame" x="16" y="526" width="343" height="71"/>
+                                <rect key="frame" x="126" y="526" width="100" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="😞Acute 1st time event">
-                                    <color key="titleColor" red="0.98138855810000003" green="0.98278105640000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="39"/>
+                                <state key="normal" title="Acute">
+                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="R1A-pJ-4Lc" kind="show" id="ERj-Rc-Nhg"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MTW-Ww-OWG">
-                                <rect key="frame" x="16" y="340" width="343" height="25"/>
+                                <rect key="frame" x="115" y="345" width="189" height="25"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="😠Aggressive reaction">
-                                    <color key="titleColor" red="0.98138855810000003" green="0.98278105640000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="Aggressive">
+                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="nDz-sw-Zb8" kind="show" id="7jk-CL-FyX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iAY-Kf-tMW">
-                                <rect key="frame" x="0.0" y="251" width="346" height="23"/>
+                                <rect key="frame" x="118" y="251" width="122" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <state key="normal" title="🤕Involves another">
-                                    <color key="titleColor" red="0.98138855810000003" green="0.98278105640000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Other">
+                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="2Vs-Zn-FBs" kind="show" id="4Y4-4y-8dW"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yjp-Dk-p2t">
-                                <rect key="frame" x="16" y="449" width="343" height="27"/>
+                                <rect key="frame" x="115" y="449" width="146" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="33"/>
-                                <state key="normal" title="😬External loss caused">
-                                    <color key="titleColor" red="0.98138855810000003" green="0.98278105640000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="External">
+                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="stA-9K-msS" kind="show" id="dPT-Su-aOU"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdZ-QR-TKW">
-                                <rect key="frame" x="16" y="144" width="54" height="32"/>
+                                <rect key="frame" x="59" y="146" width="54" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="😨"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JIL-8L-XqV">
+                                <rect key="frame" x="58" y="246" width="47" height="28"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🤕"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MOY-dL-g90">
+                                <rect key="frame" x="56" y="342" width="51" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="😠"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xdJ-zl-Y8Y">
+                                <rect key="frame" x="55" y="446" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="😬"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Wg-3Y-aII">
+                                <rect key="frame" x="63" y="546" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="😞"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYy-Ou-UcN">
-                                <rect key="frame" x="16" y="144" width="343" height="30"/>
+                                <rect key="frame" x="121" y="146" width="110" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <state key="normal" title="😨Real world danger">
-                                    <color key="titleColor" red="0.98138855810000003" green="0.98278105640000002" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Real">
+                                    <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="lgA-Z9-bvL" kind="show" id="i2V-nn-874"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.17874946880000001" green="0.53175599090000003" blue="0.14176379680000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.91148029330144698" green="0.7671722870803992" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hf2-KY-vDy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5333.6000000000004" y="928.78560719640188"/>
+            <point key="canvasLocation" x="5334" y="929"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9W8-ni-Zv3">
@@ -2710,7 +2719,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="euj-8N-4L7">
                                 <rect key="frame" x="46" y="72" width="282" height="619"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Have you resolved and fulfilled yourself with regard to your gender identity?               2. Are you aware that anxiety is not going to kill &amp; can be useful?                                                                   3.  Is your attention focused without the fear of failure?                               4.  Are you aware that your strength comes from seeing the obstacle and reaching within for resolve?                     5. Do you understand that courage is knowing the necessity of a thing?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2738,7 +2747,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qbT-xi-KZM">
                                 <rect key="frame" x="43" y="28" width="296" height="619"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Have you come to terms with your limitations in life?                                               2. Do you know that the difference between a "fantasy of bravery" &amp; raising your courage from "slumber" is the difference between escaping &amp; being alive?                                3. Are you in touch with what you weren't prepared for in your response?                                   4. Are you aware of what you couldn't articulate?                   5.  Was there a thing that you knew too little of?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2766,7 +2775,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sZs-vl-75l">
                                 <rect key="frame" x="16" y="20" width="291" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Do you find it hard to help others?                                    2. Do you deal with this loss by suffering and holding it in?                    3.  Do you deal with this loss by overreacting?                       4.  Do you deal with this loss by complaining?                        5.  Do you deal with this loss by expressing it through "acting it out"(complaining or showing other emotions such as anger or criticism)?      </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2794,7 +2803,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hjF-Og-TRh">
                                 <rect key="frame" x="29" y="28" width="278" height="609"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Are you aware of your avoidance?                                2. Do you think you make your pain worse?                               3. Do you think what you do about your feeling is effective?                                   4. Do you feel sorry for yourself?                                    5. Does the other person know how you've felt hurt?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2822,7 +2831,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="W8H-vx-ye0">
                                 <rect key="frame" x="33" y="20" width="326" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Do you see yourself as a loving person?                                              2. Are you afraid of losing love, control or esteem if you express this feeling directly?                                                                                                                      3.  Is there a lot of past alive in this present feeling?             4. Do you feel empty, vulnerable or embarrassed?       5. Do you feel guarded and protective against this hurt feeling?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2850,7 +2859,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FSg-75-pfq">
                                 <rect key="frame" x="27" y="0.0" width="280" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Have you come to terms with (forgiven) your parents?                  2. Are you aware that you can live without a certain amount of anxiety?                                    3. Do you accept that not everything must be fixed?                                  4. Did you know that anxiety can have a positive value like focusing your mind for a task ?                                        5. Do you see yourself as a "victim" (picked on/treated unfairly)?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2878,9 +2887,9 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="z8X-6T-91q">
                                 <rect key="frame" x="47" y="20" width="260" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">1. Is the degree of your self-involvement productive to the process of helping others to see you?                                     2. Is this feeling informing you?                                          3. Are you ready to tell the truth about this feeling?                                          4. Are you willing to find out if the person who hurt you cares enough or is able to respond to your need for them to not do that again?                         5. Are you willing to set a boundary on the behavior?</mutableString>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">1. Is the degree of your self-involvement productive to the process of helping others to see you?                                     2. Is this feeling informing you?                                          3. Are you ready to tell the truth about this feeling?                                          4. Are you willing to find out if the person who hurt you cares enough or is able to respond to your need for them to not do that again?                         5. Are you willing to set a boundary on the behavior?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -2906,7 +2915,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="m2c-g7-9TP">
                                 <rect key="frame" x="16" y="20" width="291" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Have you come to terms with authority?                           2. Did you trust too much or give away your power?                             3. Did you miss seeing crucial information that would have made a difference in your response?                                  4. Are you feeling compassion for yourself for having this feeling?                                       5. What’s my real reason for wanting to change this situation?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2934,7 +2943,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="owA-BV-ueW">
                                 <rect key="frame" x="16" y="20" width="302" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Do you know what the terrible events of your life are that you fear?                                          2. Do you identify with the statement, "Courage comes from facing reality" ?                                                  3. Do you see a message in this pain?                                    4. Do you need to resolve this for some reason?                                                                     5. Are you aware what thing you value has been taken away?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2962,7 +2971,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="UIH-DL-yts">
                                 <rect key="frame" x="16" y="20" width="291" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">1. Is there a traumatic event that you are reacting to?                      2. What is really causing me to feel this way?                          3. What is the smallest step I could take right now to minimize my stress?                                   4. What can I learn here?          5. Am I willing to let the fact that I am not enjoying my life continue?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -2988,10 +2997,10 @@ To be free of emotional debt you must understand the meaning of your feelings an
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1t-oS-Uib">
-                                <rect key="frame" x="20" y="552" width="326" height="43"/>
+                                <rect key="frame" x="119" y="552" width="136" height="43"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="😞Chronic repetition">
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Chronic">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -2999,10 +3008,10 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GwW-7r-dFD">
-                                <rect key="frame" x="31" y="458" width="315" height="26"/>
+                                <rect key="frame" x="121" y="458" width="134" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
-                                <state key="normal" title="😬Internal experience">
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <state key="normal" title="Internal">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -3010,10 +3019,10 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X86-Ja-xSI">
-                                <rect key="frame" x="20" y="331" width="326" height="48"/>
+                                <rect key="frame" x="110" y="355" width="152" height="24"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <state key="normal" title="😠Passive response">
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="Passive">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -3021,10 +3030,10 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tag-yv-vmT">
-                                <rect key="frame" x="16" y="220" width="330" height="55"/>
+                                <rect key="frame" x="133" y="232" width="61" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
-                                <state key="normal" title="🤕Self-made perception">
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="Self">
                                     <color key="titleColor" red="0.26420833269999999" green="0.059524074990000002" blue="0.53175599090000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
@@ -3032,23 +3041,53 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBl-wC-1Hz">
-                                <rect key="frame" x="-18" y="111" width="409" height="72"/>
+                                <rect key="frame" x="130" y="129" width="97" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <state key="normal" title="😨False fear appearing real">
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="False">
                                     <color key="titleColor" red="0.2642083327276788" green="0.059524074991155675" blue="0.53175599093264247" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="8Gk-1n-9AN" kind="show" id="wmO-13-KQ9"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ThD-sH-Pth">
+                                <rect key="frame" x="75" y="140" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="😨"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1lF-xx-dRR">
+                                <rect key="frame" x="75" y="244" width="50" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="🤕"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UmD-1Y-7GE">
+                                <rect key="frame" x="73" y="349" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="😠"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eqG-Md-kLI">
+                                <rect key="frame" x="73" y="454" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <state key="normal" title="😬"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SkI-PE-wLD">
+                                <rect key="frame" x="75" y="545" width="46" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="😞"/>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="1" green="0.84187666363223801" blue="0.96734040552065503" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cex-Oj-fYL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5333.6000000000004" y="3180.3598200899551"/>
+            <point key="canvasLocation" x="5334" y="3181"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2bR-3s-sO5">
@@ -3070,6 +3109,6 @@ To be free of emotional debt you must understand the meaning of your feelings an
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vHd-5k-Ud6"/>
+        <segue reference="Mpc-lL-JWE"/>
     </inferredMetricsTieBreakers>
 </document>
