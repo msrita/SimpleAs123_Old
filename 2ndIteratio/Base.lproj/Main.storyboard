@@ -332,7 +332,7 @@
                                 <rect key="frame" x="0.0" y="91" width="359" height="556"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">1 . Can you feel the feeling in your body?                                   yes/no                                            2. Can you identify a thought underneath the feeling?               yes/no                                     3. Have you associated this emotion with any meaning?      yes/no                                     4. Have you given the this emotion a big meaning that has power over you?                       yes/no                                      5. Have you given this feeling the power to warn you?                                          yes/no</mutableString>
+                                <string key="text">1 . Can you feel the feeling in your body?                                   yes/no                                            2. Can you identify a thought underneath the feeling?               yes/no                                     3. Have you associated this emotion with any meaning?      yes/no                                     4. Have you given the this emotion a big meaning that has power over you?                       yes/no                                      5. Have you given this feeling the power to warn you?                                          yes/no</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1506,7 +1506,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="kHg-fS-5Dj" id="F8H-sT-XHL">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9F-ip-W5n" userLabel="The cardinal rule,">
@@ -1576,7 +1576,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8uw-IU-scg" id="1uj-et-Wae">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAJ-rJ-sXB">
@@ -1650,7 +1650,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="132" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ZVH-PY-amG" id="LcJ-M1-jnK">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Jn-j0-J1l">
@@ -1690,7 +1690,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="176" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="k2E-9k-ggc" id="ohC-GL-SY6">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AdD-ih-A5C">
@@ -1730,7 +1730,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                         <rect key="frame" x="0.0" y="220" width="375" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8yC-yA-xEc" id="fkx-An-Yaf">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fHL-pN-cJg">
@@ -2879,7 +2879,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="47" y="20" width="260" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">1. Is the degree of your self-involvement productive to the process of helping others to see you?                                     2. Is this feeling informing you?                                          3. Are you ready to tell the truth about this feeling?                                          4. Are you willing to find out if the person who hurt you cares enough or is able to respond to your need for them to not do that again?                         5. Are you willing to set a boundary on the behavior?</mutableString>
+                                <string key="text">1. Is the degree of your self-involvement productive to the process of helping others to see you?                                     2. Is this feeling informing you?                                          3. Are you ready to tell the truth about this feeling?                                          4. Are you willing to find out if the person who hurt you cares enough or is able to respond to your need for them to not do that again?                         5. Are you willing to set a boundary on the behavior?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3070,6 +3070,6 @@ To be free of emotional debt you must understand the meaning of your feelings an
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="vHd-5k-Ud6"/>
+        <segue reference="MFV-D6-UDF"/>
     </inferredMetricsTieBreakers>
 </document>
