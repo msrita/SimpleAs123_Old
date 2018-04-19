@@ -240,7 +240,7 @@
                                 <rect key="frame" x="0.0" y="90" width="321" height="557"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76034385989999997" green="0.8452000221" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Is is happening in your environment?                            yes/no                                        2. Is it happening in your community?                               yes/no                                        3. Is it happening in your family?                                       yes/no                                        4. Is it happening with someone you know?                  yes/no                                        5. Is it happening with someone you don't know but that's in your world?                  yes/no                 </string>
+                                <string key="text">1. Is is happening in your environment?                                                                 2. Is it happening in your community?                                                                   3. Is it happening in your family?                                                                             4. Is it happening with someone you know?                                                        5. Is it happening with someone you don't know but that's in your world?                       Having answered these questions, what new thoughts about your hurt or pain are coming up for you?                               </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -285,7 +285,7 @@
                                 <rect key="frame" x="7" y="102" width="352" height="527"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.87814413170000005" blue="0.84582891110000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Do you sense that your reasoning has shut down?        yes/no                                        2. Are you holding back from experiencing this emotion?      yes/no                                        3. Do you feel unsafe to speak up?                                             yes/no                                        4. Does it make you want to protect yourself?                yes/no                                        5. Are you in touch with feeling threatened by retaliation?                               yes/no</string>
+                                <string key="text">1. Do you sense that your reasoning has shut down?                                               2. Are you holding back from experiencing this emotion?                                             3. Do you feel unsafe to speak up?                                                                                   4. Does it make you want to protect yourself?                                                      5. Are you in touch with feeling threatened by retaliation?                               From these answers, what is now coming to you about your anger?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -332,7 +332,7 @@
                                 <rect key="frame" x="0.0" y="91" width="359" height="556"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1 . Can you feel the feeling in your body?                                   yes/no                                            2. Can you identify a thought underneath the feeling?               yes/no                                     3. Have you associated this emotion with any meaning?      yes/no                                     4. Have you given the this emotion a big meaning that has power over you?                       yes/no                                      5. Have you given this feeling the power to warn you?                                          yes/no</string>
+                                <string key="text">1 . Can you feel the feeling in your body?                                                                             2. Can you identify a thought underneath the feeling?                                                   3. Have you associated this emotion with any meaning?                                          4. Have you given the this emotion a big meaning that has power over you?                                                            5. Have you given this feeling the power to warn you?                                Having answered these questions,  what new thoughts about your anxiety or fear are coming to you?                                         </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -377,8 +377,8 @@
                                 <rect key="frame" x="9" y="91" width="366" height="529"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.74515199147792721" green="0.79316461141676409" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Are you connecting this feeling to a memory?                                             yes/no                                                    2. Does it come from a history of many of this type of feelings?                                yes/no                                                     3. Does this feeling remind you of an old, early hurtful experience?                                 yes/no                                                    4. Is an old emotional memory being triggered by this feeling?                                      yes/no                                                     5. Is it an emotional memory from the past, mistakenly being confused with current feelings? (Real and imaginary feelings feel the same. Only the rational brain can tell the difference.)                                        yes/no                                         </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <string key="text">1. Are you connecting this feeling to a memory?                                                                                              2. Does it come from a history of many of this type of feeling?                                                                                   3. Does this feeling remind you of an old, early hurtful experience?                                                                                    4. Is an old emotional memory being triggered by this feeling?                                                                                         5. Is it an emotional memory from the past, mistakenly being confused with current feelings? (Real and imaginary feelings feel the same. Only the rational brain can tell the difference...                                    which is it this time?)                                                                                       </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -436,8 +436,8 @@
                                 <rect key="frame" x="0.0" y="142" width="375" height="492"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.78438068459999999" green="1" blue="0.80494969780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Does this feeling cause a sense of self-consciousness, awkwardness?                            yes/no                                                 2. Does this feeling cause a sense of low self-esteem or insecurity?                                             yes/no                                             3. Does this feeling cause you to feel impulsive?                                    yes/no                                                      4. Was there a triggering event that caused this feeling?                                      yes/no                                                       5. Do you feel someone misguided you?                                     yes/no               </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <string key="text">1. Does this feeling cause a sense of self-consciousness, awkwardness?                                                                           2. Does this feeling cause a sense of low self-esteem or insecurity?                                                                                        3. Does this feeling cause you to feel impulsive?                                                                                       4. Was there a triggering event that caused this feeling?                                                                                            5. Do you feel someone misguided you?                                     With these answers do you get that there's an amend to make to someone, or is it that you are covering and extending anger by holding onto bitter thoughts?             </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -853,7 +853,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WiC-S7-V9o" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1106" y="-312"/>
+            <point key="canvasLocation" x="1104.8" y="-312.59370314842579"/>
         </scene>
         <!--GuiltView Controller-->
         <scene sceneID="zQZ-gr-udD">
@@ -927,7 +927,7 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qqq-Nf-bL2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="500" y="-333"/>
+            <point key="canvasLocation" x="500" y="-333.28335832083962"/>
         </scene>
         <!--AngerView Controller-->
         <scene sceneID="QxU-pv-QX2">
@@ -941,11 +941,11 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-SG-oc8">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-SG-oc8">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="1" green="0.7757644481" blue="0.71439917630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Again, find one word maybe here which picks feeling Type:                                                                Synonyms: rage, vexation, exasperation, displeasure, crossness, irritation, irritability, indignation, pique, annoyance, fury, wrath, ire, outrage, irascibility, ill temper/humor, slow burn, aggravation, infuriated, irritated, exasperated, irked, vexed, peeved, maddened, put out,  enraged,                    incensed, rubbed the wrong way, blood boiling, back up, seeing red, dander up, rattled cage, hackles rising; aggravated, riled, ticked off, teed off, burned up, pissed off, acrimony, animosity, antagonism, displeasure, enmity, hatred, impatience, resentment, temper, violence, chagrin,   rabid, conniption, distemper, gall, huffy, miffed, petulant, piqued, rankling, soreness, stewed, stormy, tiff, tantrum, umbrage,  vexation, blow up, cat fits, hissy fit, mad, harsh, acrid, wrath, steamed up, seething, ruffled, bristling, chafed, inflamed, fret, on your nerves, stirred up, apoplectic, ballistic, belligerent, caustic, contrary, fired up, furious, fuming, hostile, rankled,  ticked off, smoldering, riled, raving, ranting.</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <string key="text">Again, find 1 word maybe here which picks feeling Type: Synonyms: rage, vexation, exasperation, crossness, displeasure,  irritation, irked, irritability, indignation, pique,                                                                                              annoyance, wrath, outrage, irascibility, ill temper/humor, slow burn,  enraged, riled, aggravation, infuriated, ire,  irritated, exasperated,  vexed, peeved, maddened, put out, incensed, rubbed the wrong way, blood boiling, back up, seeing red, dander up, rattled cage, hackles rising; enmity, aggravated, ticked off, teed off, burned up, pissed off, acrimony, animosity, fury, antagonism, displeasure, hatred, impatience, chagrin, temper, violence, ballistic, rabid, conniption, distemper, gall, huffy, miffed, petulant,  resentment, piqued, rankling,stewed, stormy, tiff, tantrum,  umbrage, vexation, blow up, cat fits, hissy fit, mad, harsh, acrid, wrath, steamed up, seething, ruffled, bristling, chafed, inflamed, fret, on your nerves, stirred up, apoplectic,  belligerent, caustic, contrary, fired up, furious, fuming, hostile, rankled,  ticked off, smoldering, riled, raving, ranting, soreness.</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -960,7 +960,7 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OBU-gb-9w9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1756" y="-270"/>
+            <point key="canvasLocation" x="1756" y="-270.31484257871068"/>
         </scene>
         <!--DepressionView Controller-->
         <scene sceneID="R4Y-fh-ZBm">
@@ -977,8 +977,7 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cwA-5u-88C">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="0.66709902860000003" green="0.70314068679999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Synonyms: dejection, desolation, despondent, despondence, despondency, disconsolateness, dispiritedness, doldrums, dolefulness, downheartedness, dreariness, dumps, forlornness, gloomy, gloominess, glumness, heartsickness, joylessness, melancholy, miserableness, moping, mournfulness, worthless, oppression, unhappiness, chronic sadness, bleak, abject, misery, deep sorrow, severe woe, thwarted perfectionism, a burden, despondency, a heavy heart, despair, desolation, morose, cheerless, dullness, hopelessness, constant upset, excessive  tearfulness, in the dumps, the doldrums, the blues, an endless funk, a blue funk, a state or spell of low spirits, lugubrious, suicidal ideation (vs. actual attempt) and rumination, drained, empty, acting recklessly, over sleeping/drinking, sleepless, no reason to live, 
-stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somberness, agony, distress, misery, wretchedness, discouragement, disheartenment, moodiness, desperation, hopelessness, self-despair, boredom, ennui, tedium, dismalness, dreary, gray, morbidness, moroseness, haunting regret, foreboding, inactivity, withdrawal, self-isolating; Suicidal with means and a plan:  (800) 273-TALK (Suicide Hot Line)</string>
+                                <string key="text">Synonyms: dejection, desolation, despondent, despondence, despondency, disconsolateness, dispiritedness, doldrums, dolefulness, downheartedness, dreariness, dumps, forlornness, gloomy, gloominess, glumness, heartsickness, joylessness, melancholy, miserableness, moping, mournfulness, worthless, oppression, unhappiness, chronic sadness, bleak, abject, misery, deep sorrow, severe woe, thwarted perfectionism, a burden, despondency, a heavy heart, despair, desolation, morose, cheerless, dullness, hopelessness, constant upset, excessive  tearfulness, in the dumps, the doldrums, the blues, an endless funk, a blue funk, a state or spell of low spirits, lugubrious, suicidal ideation (vs. actual attempt) and rumination, drained, empty, acting recklessly, over sleeping/drinking, sleepless, no reason to live, stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somberness, agony, distress, misery, wretchedness, discouragement, disheartenment, moodiness, desperation, hopelessness, self-despair, boredom, ennui, tedium, dismalness, dreary, gray, morbidness, moroseness, haunting regret, foreboding, inactivity, withdrawal, self-isolating; Suicidal with means and a plan:  (800) 273-TALK (Suicide Hot Line)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -994,7 +993,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPD-Qi-TbE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3105" y="-187"/>
+            <point key="canvasLocation" x="3104.8000000000002" y="-187.55622188905548"/>
         </scene>
         <!--Click on text field  to enter comments-->
         <scene sceneID="iOg-Eg-v1Q">
@@ -1051,7 +1050,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                 <gestureRecognizers/>
                                 <string key="text">*This is the CARDINAL RULE, to deal with and hopefully resolve pain at the moment it arises. It is remarkably simple.                                        *Awareness in the moment is the key to feeling your feelings and not numbing thus distorting them.                                          *The real feeling leads you to being brave; the false perception leads to panic. Following this RULE is the source of EMOTIONAL MATURITY.                   *Stripped to their basics, feelings arouse only two sensations:  pain and pleasure. We tend to avoid pain and seek pleasure.             
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="X3T-o9-Mce" appends="YES" id="oEs-PS-fOB"/>
@@ -1135,7 +1134,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                                 <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
                                 <string key="text">*Holding your feelings inside causes a blind spot on that issue, a defense against that hurt that becomes part of your "false self" or the armor that stops your access to feelings to the extent that you keep them buried.                                                    *We are capable of behaving in unconscious ways from that false self, that contradicts what we are consciously aware of, because that part of the self was formed in the past.                                        *At one point in your history it helped you get through conflict, but since that time of need, you and the world have changed, while the false self stayed fixed in that time.                                             </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="6Rn-lX-4EV" appends="YES" id="lqP-2B-O0D"/>
@@ -1173,11 +1172,11 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="AlO-ke-VFI">
-                                <rect key="frame" x="29" y="20" width="317" height="617"/>
+                                <rect key="frame" x="29" y="20" width="317" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.84187666360000002" blue="0.9673404055" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
-                                <string key="text">*What you are willing to take responsibility for gets you to the truth that frees you from past hurts.                           *You can be emotionally free and mature only if you assume responsibility for your emotions as a right and a privilege, not as a duty or burden.                       *Releasing claims the past has on you will help you be more resolved in your journey's lessons, and complete in your expressing feelings in each moment which will reduce emotional                                  debt as well as immaturity.   </string>
+                                <string key="text">*What you are willing to take responsibility for gets you to the truth that frees you from past hurts.                           *You can be emotionally free and mature only if you assume responsibility for your emotions as a right and a privilege, not as a duty or burden.                       *Releasing claims the past has on you will help you be more resolved in your journey's lessons, and more complete in your expressing feelings in each moment, which reduces emotional debt as well as immaturity.   </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <connections>
@@ -1195,7 +1194,7 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2073" y="1622"/>
+            <point key="canvasLocation" x="2072.8000000000002" y="1621.4392803598203"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="2WB-f9-WYC">
@@ -2329,15 +2328,13 @@ stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somb
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSv-U3-4xC">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSv-U3-4xC">
+                                <rect key="frame" x="16" y="47" width="359" height="620"/>
                                 <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">The journey to EMOTIONAL MATURITY is a lifelong one, but the rewards begin as soon as you commit to taking it.
-
 The adult growth and development journey is determined and defined by childhood injuries which become our flaws as we enter adulthood. We must accept our flaws as the guides to where emotional growth is needed and to what lessons need to be learned.
 
-Ten basic truths that can change your life (Emotional Resilience: Simple Truths for Dealing with the Unfinished Business of Your Past by David Viscott M.D., 1993)
-
+10 basic truths that can change your life (Emotional Resilience: Simple Truths for Dealing with the Unfinished Business of Your Past by David Viscott M.D., 1993)
 1. Tell the truth
 2. Face life openly because what you avoid imprisons you
 3. Say what you mean, feel, believe; do what you say
@@ -2363,7 +2360,7 @@ Ten basic truths that can change your life (Emotional Resilience: Simple Truths 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9de-1t-clo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1220" y="1482"/>
+            <point key="canvasLocation" x="1220" y="1481.1094452773614"/>
         </scene>
         <!--Page2View Controller-->
         <scene sceneID="VhC-e7-mRg">
@@ -2414,8 +2411,8 @@ Unexpressed, aged anger, redirects inward against the self or is sustained unpro
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tr6-rk-iG2">
-                                <rect key="frame" x="16" y="20" width="343" height="627"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tr6-rk-iG2">
+                                <rect key="frame" x="16" y="20" width="343" height="639"/>
                                 <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Repressed feelings comprise emotional debt, those feelings that we cannot feel, that create our psychological defenses. Symptoms of defenses (avoidance, evasion, angry outbursts, addictive behaviors, etc.) make up a false self, extremely clever at hiding the pain from us. We distinguish the false self from the true self so that we may understand the part of us that is psychologically tasked with keeping us from pain/feeling,  recognizing/being overwhelmed by it: unhealthy ways of dealing with conflict.
 This false self armor of defenses eventually takes over to manage the personality, to keep thoughts and emotions at the surface level where the ego can manage living with the help of the survivalist brain. It is possible to navigate through an entire life at this surface level of personality without ever deepening below the ego's control and repetitions. To the extent that the personality functions on this superficial level is the extent to which the person is out of touch with reality and disconnected from others.
@@ -2438,7 +2435,7 @@ Your true self is a witness that doesn't get stuck in drama or distracted by the
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="noA-AJ-oLA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1358" y="3233"/>
+            <point key="canvasLocation" x="1357.5999999999999" y="3232.5337331334335"/>
         </scene>
         <!--Page4View Controller-->
         <scene sceneID="KZ0-UM-nwu">
@@ -2739,7 +2736,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="43" y="28" width="296" height="619"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Have you come to terms with your limitations in life?                                               2. Do you know that the difference between a "fantasy of bravery" &amp; raising your courage from "slumber" is the difference between escaping &amp; being alive?                                3. Are you in touch with what you weren't prepared for in your response?                                   4. Are you aware of what you couldn't articulate?                   5.  Was there a thing that you knew too little of?</string>
+                                <string key="text">1. Have you come to terms with your limitations in life?                                               2. Do you know that the difference between a "fantasy of bravery" &amp; raising your courage from "slumber" is the difference between escaping &amp; being alive?                                3. Are you in touch with what you imagined in your response?                                   4. Are you aware of what you couldn't articulate?                   5.  Was there a thing that you knew too little of, weren't prepared for?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2767,7 +2764,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="16" y="20" width="291" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Do you find it hard to help others?                                    2. Do you deal with this loss by suffering and holding it in?                    3.  Do you deal with this loss by overreacting?                       4.  Do you deal with this loss by complaining?                        5.  Do you deal with this loss by expressing it through "acting it out"(complaining or showing other emotions such as anger or criticism)?      </string>
+                                <string key="text">1. Do you find it hard to help others?                                    2. Do you deal with loss by suffering and holding it in?                                  3.  Do you deal with loss by overreacting?                          4.  Do you deal with loss by avoiding, evading, distracitng yourself?                                    5.  Do you deal with loss by expressing it through  actions (actiing it out)                                               for example, by complaining or showing other emotions such as anger or criticism?      </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2795,7 +2792,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="29" y="28" width="278" height="609"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Are you aware of your avoidance?                                2. Do you think you make your pain worse?                               3. Do you think what you do about your feeling is effective?                                   4. Do you feel sorry for yourself?                                    5. Does the other person know how you've felt hurt?</string>
+                                <string key="text">1. Are you aware of your avoidance, of covering the hurt with anger?                                2. Do you think you make your pain worse?                               3. Do you think what you do about your feeling is effective?                                   4. Do you feel sorry for yourself...or are you willing to feel compassion for yourself for having this feeling?                                    5. Does the other person know how you've felt hurt?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2823,8 +2820,8 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="33" y="20" width="326" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Do you see yourself as a loving person?                                              2. Are you afraid of losing love, control or esteem if you express this feeling directly?                                                                                                                      3.  Is there a lot of past alive in this present feeling?             4. Do you feel empty, vulnerable or embarrassed?       5. Do you feel guarded and protective against this hurt feeling?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <string key="text">1. Do you see yourself as a loving person?                                              2. Are you afraid of losing love, control or esteem if you express this feeling directly?                                                                                                                      3.  Is there a lot of past alive in this present feeling?             4. Do you feel empty, vulnerable or embarrassed? (Like, "Why is a nice person like me having these ugly thoughts?")                                  5. Do you feel guarded and protective with this hurt feeling because you don't really know if you've actually made some mistake and hurt someone?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -2851,7 +2848,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="27" y="0.0" width="280" height="647"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.7451519915" green="0.79316461140000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Have you come to terms with (forgiven) your parents?                  2. Are you aware that you can live without a certain amount of anxiety?                                    3. Do you accept that not everything must be fixed?                                  4. Did you know that anxiety can have a positive value like focusing your mind for a task ?                                        5. Do you see yourself as a "victim" (picked on/treated unfairly)?</string>
+                                <string key="text">1. Have you come to terms with (forgiven) your parents?                  2. Are you aware that you CAN live without a certain amount of anxiety and that's okay?                                    3. Do you accept that not everything must be fixed?                                  4. Did you know that anxiety can have a positive value like focusing your mind for a task ?                                        5. Do you see yourself as a "victim" (picked on/treated unfairly)?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2907,7 +2904,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="16" y="20" width="291" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Have you come to terms with authority?                           2. Did you trust too much or give away your power?                             3. Did you miss seeing crucial information that would have made a difference in your response?                                  4. Are you feeling compassion for yourself for having this feeling?                                       5. What’s my real reason for wanting to change this situation?</string>
+                                <string key="text">1. Have you come to terms with authority?                           2. Did you trust too much or give away your power?                             3. Did you miss seeing crucial information that would have made a difference in your response?                                  4. What’s your real reason for wanting to change this situation?                                    5.  Are you aware of the loss that occurred causining the pain underneath this anger?  </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -2935,8 +2932,8 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="16" y="20" width="302" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Do you know what the terrible events of your life are that you fear?                                          2. Do you identify with the statement, "Courage comes from facing reality" ?                                                  3. Do you see a message in this pain?                                    4. Do you need to resolve this for some reason?                                                                     5. Are you aware what thing you value has been taken away?</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <string key="text">1. Do you know of terrible events or scary parts of your life that you fear?                                          2. Do you identify with the statement, "Courage comes from facing reality" ?                                                  3. Do you see a message in  this pain; is there an apology you need to make?                                    4. Do you need to resolve this for some reason or just understand it?                                                                     5. Are you aware what thing you value has been taken away or that you have lost or caused another to lose?</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -2963,7 +2960,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                                 <rect key="frame" x="16" y="20" width="291" height="627"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.65743549570000004" green="1" blue="0.64288188960000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">1. Is there a traumatic event that you are reacting to?                      2. What is really causing me to feel this way?                          3. What is the smallest step I could take right now to minimize my stress?                                   4. What can I learn here?          5. Am I willing to let the fact that I am not enjoying my life continue?</string>
+                                <string key="text">1. Is there a traumatic event that you are reacting to?                      2. What build up of things is causing you to feel this way?                          3. What is the smallest step you could take right now to minimize your stress?                                   4. What can you learn at this point about the blueprint of your life?                                    5. Are you willing to let the fact that you're not enjoying your life continue?</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3070,6 +3067,6 @@ To be free of emotional debt you must understand the meaning of your feelings an
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MFV-D6-UDF"/>
+        <segue reference="vHd-5k-Ud6"/>
     </inferredMetricsTieBreakers>
 </document>
