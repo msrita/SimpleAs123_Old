@@ -30,7 +30,7 @@
         <!--Main View Controller-->
         <scene sceneID="hQE-L8-4bM">
             <objects>
-                <viewController storyboardIdentifier="LearnViewController" id="2fV-Ea-P8r" userLabel="Main View Controller" customClass="MainScreenViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LearnViewController" title="Click on 1, then 2, then 3, In Order" id="2fV-Ea-P8r" userLabel="Main View Controller" customClass="MainScreenViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZbS-qx-Ep6"/>
                         <viewControllerLayoutGuide type="bottom" id="0jM-xP-4qn"/>
@@ -57,8 +57,8 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYQ-Gn-wJm">
                                                 <rect key="frame" x="0.0" y="151" width="187.5" height="150.5"/>
                                                 <color key="backgroundColor" red="0.83648948079999996" green="1" blue="0.85908162889999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <string key="text">Find the one word that locates the bothersome, puzzling or distressing feeling that has you stuck into 1 of the 5 categories of negative feelings</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <string key="text">Find the 1 word that locates the bothersome, puzzling or distressing feeling that has you stuck into 1 of the 5 categories/types of negative feelings. Then go to 2.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -100,8 +100,8 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Jo-tY-E5y">
                                                 <rect key="frame" x="0.0" y="151" width="187.5" height="150.5"/>
                                                 <color key="backgroundColor" red="1" green="0.7757644481" blue="0.71439917630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <string key="text">Answer as many of the questions as you need to until you reach a place of knowing about this uncomfortable feeling. Keep sitting, staying with it, ansering Q's until you know it more clearly.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <string key="text">Answer as many of the questions as you need to until you reach a place of knowing about this uncomfortable feeling.      Sit still, staying with it, answering Q's 'til you know it more clearly. Then do 3.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -141,10 +141,10 @@
             </objects>
             <point key="canvasLocation" x="-228" y="785.75712143928047"/>
         </scene>
-        <!--View Controller-->
+        <!--Click on Emoji of Your Feeling Type-->
         <scene sceneID="PV5-Sj-djA">
             <objects>
-                <viewController id="mRV-LA-tvo" sceneMemberID="viewController">
+                <viewController title="Click on Emoji of Your Feeling Type" id="mRV-LA-tvo" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FSW-Kl-xn8"/>
                         <viewControllerLayoutGuide type="bottom" id="ET7-vo-knv"/>
@@ -198,6 +198,41 @@
                                     <segue destination="7C0-Ut-PUZ" kind="show" id="tEe-Zx-RsM"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Oh No!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5S-sO-Nkn">
+                                <rect key="frame" x="251" y="111" width="71" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ouch!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DPk-wq-4j0">
+                                <rect key="frame" x="251" y="231" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Grrr!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qbe-uM-59F">
+                                <rect key="frame" x="251" y="339" width="62" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Yikes!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAh-w0-INv">
+                                <rect key="frame" x="251" y="448" width="62" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Don't bother me, I can't cope" textAlignment="justified" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FHg-e6-DRm">
+                                <rect key="frame" x="103" y="597" width="197" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97560347608564335" blue="0.78441547982624049" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -205,7 +240,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i8u-bp-O71" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="476" y="786"/>
+            <point key="canvasLocation" x="476" y="785.75712143928047"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8gc-LL-04j">
@@ -834,7 +869,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t0T-FM-pdE">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t0T-FM-pdE">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="0.76034385989999997" green="0.8452000221" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Chose a word that calls out to you to describe your feeling that is troublesome (or go Back &amp; try another category if your word isn't here -- Once you chose your word in a category, go Back and Go To 2. Process It &amp; click on the matching Emoji for your Negative Feeling Type):                                                                                                                                                       Synonyms -- sad, pain, ache, afflicted, aggrieved, agonized, anguish, battered, bleeding. bruised, buffeted, burned. contused, crushed, cut, damaged, disfigured, distressed, disturbed, grazed, harmed, hit, impaired, injured, lacerated, marred, mauled, miffed, misery, mutilated, nicked, offended, oppressed, pained, persecuted, piqued, scarred, scraped, scratched, shook, shot, sore, smarting, squirm, struck, suffering, tender, tortured, warped, wince, wounded, writhe, wronged, all torn up, busted up, indignant, put away, resentful, rueful, stricken, umbrageous, unhappy, singing the blues.</string>
@@ -858,7 +893,7 @@
         <!--GuiltView Controller-->
         <scene sceneID="zQZ-gr-udD">
             <objects>
-                <viewController id="ngN-No-AFi" userLabel="GuiltView Controller" sceneMemberID="viewController">
+                <viewController title="Scroll Down to Read All" id="ngN-No-AFi" userLabel="GuiltView Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="E3l-P4-63P"/>
                         <viewControllerLayoutGuide type="bottom" id="edD-CD-c1v"/>
@@ -874,11 +909,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5UC-KY-OrC">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5UC-KY-OrC">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
                                 <color key="backgroundColor" red="0.675603226" green="1" blue="0.73500653810000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Synonyms: blameworthiness, shame, vengeful, a guilty conscience,  pangs of conscience, dodge, envy, embarrassment, negligence, regret, chagrin, omission, culpability, pride, plot,
-self-condemnation, self-reproach,  contrition, contriteness, remorse, disrepute, double-cross,                             remorsefulness, compunction,disgrace, blame, stigma, repentance, delinquency, error, wrongdoing, misconduct, vice, depravity, complicity, mortification, qualm, badness, corruption, failing, feloniousness, iniquity, malfeasance, ruefulness, second thoughts, slip, burden, stigma, unrighteousness, evil, wrong,fault, albatross, accountability, charge, concern, abomination,                    inexpedience, accountability, wrong, wickedness, woe, abashment, bait and switch, bunk, conspiracy, deceit, fraudulent, deficiency, damnation, covetousness, degraded, demerit, dereliction, diddling, disesteem, dishonor, foible, frailty, gluttony, gyp, humiliation, immorality, ill-repute, infamy, loss of face, misdemeanor, mistake, affronting,misstep, peccadillo, flim-flam, scandal, self-disgust, sloth, treachery, trespass, violation, whitewash, smear, feelings of inadequacy, self-loathing. It is  helpful to distinguish guilt from shame. A guilty feeling causes you to believe "I did something bad." Shame causes you to believe, "I am something bad, evil."  Shame goes far deeper than guilt all the way to your experience of self as somehow defective, flawed.</string>
+                                <mutableString key="text">Synonyms: blameworthiness, shame, vengeful, a guilty conscience, pangs of conscience, concern, stigma, dodge, contrition, contriteness, remorse, disrepute, double-cross, plot, fault, flawed, wrong, pride, envy, evil, inexpedience, omission, charge, accountability, charge, abomination, culpability, self-loathing, self-reproach,
+compunction, disgrace, repentance, delinquency, error, wrongdoing, misconduct, vice, depravity, complicity, mortification, qualm, badness, mistake, corruption, failing, feloniousness, iniquity, malfeasance, ruefulness, second thoughts, slip, infamy, unrighteousness, burden,  wrong, self-condemnation, wickedness, woe, abashment, bait and switch, bunk, conspiracy, deceit, fraudulent, deficiency, damnation, covetousness, sloth, degraded, demerit, dereliction, diddling, disesteem, dishonor, foible, frailty, gluttony, gyp, humiliation, immorality, malicious, ill-repute, loss of face, remorsefulness, misdemeanor, affronting, misstep, peccadillo, flim-flam, scandal, self-disgust, smear, embarrassment, albatross, negligence, regret, blame, chagrin, treachery, trespass, violation, whitewash, feelings of inadequacy. It is  helpful to distinguish guilt from shame. A guilty feeling causes you to believe "I did something bad." Shame causes you to believe, "I am something bad, evil."  Shame goes far deeper than guilt all the way to your experience of self as somehow defective.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -894,7 +929,7 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mr5-m1-0Vk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2449" y="-228"/>
+            <point key="canvasLocation" x="2448.8000000000002" y="-228.03598200899552"/>
         </scene>
         <!--AnxietyView Controller-->
         <scene sceneID="bmf-S3-Fgg">
@@ -908,7 +943,7 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Goa-vm-ROC">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Goa-vm-ROC">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="1" green="0.96473330999999996" blue="0.48754859389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">In this section, let your "inner guide" pick the one word that calls to you as that one description that just fits the upset; (go Back &amp; try another category if your word isn't here): (Once you pick your word in a category, go Back and Go To 2. Process It &amp; Click on the matching Emoji for Negative Feeling Type you chose)                                                                                                               Synonyms -- fear, foreboding, apprehension, consternation, dismay, dread, terror, fright, panic, horror, trepidation, qualm, concern, worry, bother, fret, fuss, stew, stress, alarm, sweat, phobia; creeps, jitters, nervousness, willies, agitation, agonize, anguish, long, pine, yearn, chafe, troubled, pang, twinge, discomposure, disquiet, perturbed, fainthearted, timid, timorous, desperate, discomfort, distressed, edgy, frantic, hand-wringing, distracted, jumpy, angst, torment, upset, vexation, cold-feet, doubt, misgiving, uncertainty, suspense, unease, trembling,  anticipate, apprehend, expect, foresee, suspect, have butterflies in one's stomach, shake in one's shoes, shudder at, be in a blue funk, nightmare, hyper-vigillance.   </string>
@@ -941,10 +976,10 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-SG-oc8">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-SG-oc8">
+                                <rect key="frame" x="16" y="0.0" width="343" height="637"/>
                                 <color key="backgroundColor" red="1" green="0.7757644481" blue="0.71439917630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">Again, find 1 word maybe here which picks feeling Type: Synonyms: rage, vexation, exasperation, crossness, displeasure,  irritation, irked, irritability, indignation, pique,                                                                                              annoyance, wrath, outrage, irascibility, ill temper/humor, slow burn,  enraged, riled, aggravation, infuriated, ire,  irritated, exasperated,  vexed, peeved, maddened, put out, incensed, rubbed the wrong way, blood boiling, back up, seeing red, dander up, rattled cage, hackles rising; enmity, aggravated, ticked off, teed off, burned up, pissed off, acrimony, animosity, fury, antagonism, displeasure, hatred, impatience, chagrin, temper, violence, ballistic, rabid, conniption, distemper, gall, huffy, miffed, petulant,  resentment, piqued, rankling,stewed, stormy, tiff, tantrum,  umbrage, vexation, blow up, cat fits, hissy fit, mad, harsh, acrid, wrath, steamed up, seething, ruffled, bristling, chafed, inflamed, fret, on your nerves, stirred up, apoplectic,  belligerent, caustic, contrary, fired up, furious, fuming, hostile, rankled,  ticked off, smoldering, riled, raving, ranting, soreness.</string>
+                                <mutableString key="text">Again, find 1 word maybe here which picks feeling Type of Anger.                Synonyms: rage, vexation, exasperation, crossness, displeasure,  irritation, irked, irritability, indignation, pique, annoyance, wrath, outrage, irascibility, ill temper/ill humor, slow burn,  enraged, riled, aggravation, infuriated, ire,  irritated, exasperated,  vexed, peeved, maddened, put out, incensed, rubbed the wrong way, blood boiling, back up, seeing red, dander up, rattled cage, hackles rising; enmity, aggravated, ticked off, teed off, burned up, contrary, furious, fuming, acrimony, antagonism, animosity, fury, resentment, displeasure, smoldering, hatred, impatience, chagrin,        temper, vexation, violence, ranting, hissy fit, ballistic, hostile,  rabid, umbrage, conniption, piqued, distemper, gall, fired up, blow up, cat fits, ticked off, pissed off, huffy, miffed, petulant, rankled, rankling, riled, raving, soreness, stewed, stormy, tiff, tantrum,  mad, harsh, acrid, wrath, steamed up, seething, ruffled, bristling, chafed, inflamed, fret, on your nerves, stirred up, apoplectic, belligerent, caustic. </mutableString>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -965,7 +1000,7 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
         <!--DepressionView Controller-->
         <scene sceneID="R4Y-fh-ZBm">
             <objects>
-                <viewController id="DFJ-tl-EV9" userLabel="DepressionView Controller" sceneMemberID="viewController">
+                <viewController title="Scroll Down to Read All" id="DFJ-tl-EV9" userLabel="DepressionView Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mf2-hu-qmH"/>
                         <viewControllerLayoutGuide type="bottom" id="GJv-uh-VOn"/>
@@ -974,8 +1009,8 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cwA-5u-88C">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cwA-5u-88C">
+                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
                                 <color key="backgroundColor" red="0.66709902860000003" green="0.70314068679999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Synonyms: dejection, desolation, despondent, despondence, despondency, disconsolateness, dispiritedness, doldrums, dolefulness, downheartedness, dreariness, dumps, forlornness, gloomy, gloominess, glumness, heartsickness, joylessness, melancholy, miserableness, moping, mournfulness, worthless, oppression, unhappiness, chronic sadness, bleak, abject, misery, deep sorrow, severe woe, thwarted perfectionism, a burden, despondency, a heavy heart, despair, desolation, morose, cheerless, dullness, hopelessness, constant upset, excessive  tearfulness, in the dumps, the doldrums, the blues, an endless funk, a blue funk, a state or spell of low spirits, lugubrious, suicidal ideation (vs. actual attempt) and rumination, drained, empty, acting recklessly, over sleeping/drinking, sleepless, no reason to live, stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somberness, agony, distress, misery, wretchedness, discouragement, disheartenment, moodiness, desperation, hopelessness, self-despair, boredom, ennui, tedium, dismalness, dreary, gray, morbidness, moroseness, haunting regret, foreboding, inactivity, withdrawal, self-isolating; Suicidal with means and a plan:  (800) 273-TALK (Suicide Hot Line)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -1032,10 +1067,10 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
             </objects>
             <point key="canvasLocation" x="-956" y="1482"/>
         </scene>
-        <!--View Controller-->
+        <!--Click On Page to Read More-->
         <scene sceneID="gYZ-NZ-8Y2">
             <objects>
-                <viewController id="Z8f-56-A8N" sceneMemberID="viewController">
+                <viewController title="Click On Page to Read More" id="Z8f-56-A8N" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i0r-Kt-U94"/>
                         <viewControllerLayoutGuide type="bottom" id="5kM-fC-TLV"/>
@@ -1048,7 +1083,7 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
                                 <rect key="frame" x="16" y="0.0" width="343" height="667"/>
                                 <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <gestureRecognizers/>
-                                <string key="text">*This is the CARDINAL RULE, to deal with and hopefully resolve pain at the moment it arises. It is remarkably simple.                                        *Awareness in the moment is the key to feeling your feelings and not numbing thus distorting them.                                          *The real feeling leads you to being brave; the false perception leads to panic. Following this RULE is the source of EMOTIONAL MATURITY.                   *Stripped to their basics, feelings arouse only two sensations:  pain and pleasure. We tend to avoid pain and seek pleasure.             
+                                <string key="text">*This is the CARDINAL RULE, to deal with and hopefully resolve pain at the moment it arises. It is remarkably simple.                                        *Awareness in the moment is the key to feeling your feelings and not numbing thus distorting them.                                          *The real feeling leads you to being brave; the false perception leads to panic. Following this RULE is the source of Emotional Maturity &amp; Personal Growth.                   *Stripped to their basics, feelings arouse only two sensations:  pain and pleasure. We tend to avoid pain and seek pleasure.             
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1075,10 +1110,10 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
             </objects>
             <point key="canvasLocation" x="500" y="1482"/>
         </scene>
-        <!--View Controller-->
+        <!--Click On Page to Read More-->
         <scene sceneID="oUj-e0-jZm">
             <objects>
-                <viewController id="24n-nt-rYs" sceneMemberID="viewController">
+                <viewController title="Click On Page to Read More" id="24n-nt-rYs" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="3YZ-2W-sKh"/>
                         <viewControllerLayoutGuide type="bottom" id="8TN-GU-Kbd"/>
@@ -1117,10 +1152,10 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
             </objects>
             <point key="canvasLocation" x="573.60000000000002" y="2327.5862068965521"/>
         </scene>
-        <!--View Controller-->
+        <!--Click On Page to Read More-->
         <scene sceneID="3K3-Wc-FiH">
             <objects>
-                <viewController id="0Tn-ah-vHw" sceneMemberID="viewController">
+                <viewController title="Click On Page to Read More" id="0Tn-ah-vHw" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YdY-jR-c69"/>
                         <viewControllerLayoutGuide type="bottom" id="NcY-HB-DMP"/>
@@ -1159,10 +1194,10 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
             </objects>
             <point key="canvasLocation" x="500" y="3233.4332833583212"/>
         </scene>
-        <!--View Controller-->
+        <!--Click On Page to Read More-->
         <scene sceneID="oZj-UG-Led">
             <objects>
-                <viewController id="JD9-ef-9c8" sceneMemberID="viewController">
+                <viewController title="Click On Page to Read More" id="JD9-ef-9c8" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="9KA-AQ-fFO"/>
                         <viewControllerLayoutGuide type="bottom" id="MMG-iW-hAF"/>
@@ -1196,10 +1231,10 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
             </objects>
             <point key="canvasLocation" x="2072.8000000000002" y="1621.4392803598203"/>
         </scene>
-        <!--View Controller-->
+        <!--Click On Page to Read More-->
         <scene sceneID="2WB-f9-WYC">
             <objects>
-                <viewController id="LcR-QG-y6L" sceneMemberID="viewController">
+                <viewController title="Click On Page to Read More" id="LcR-QG-y6L" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PbY-Kq-Up1"/>
                         <viewControllerLayoutGuide type="bottom" id="0mS-ME-NBs"/>
@@ -1238,10 +1273,10 @@ self-condemnation, self-reproach,  contrition, contriteness, remorse, disr
             </objects>
             <point key="canvasLocation" x="2237.5999999999999" y="2932.9835082458771"/>
         </scene>
-        <!--Long Table View Controller-->
+        <!--Scroll Down to Colors to Read More-->
         <scene sceneID="Sp2-BB-3jL">
             <objects>
-                <tableViewController storyboardIdentifier="LongTableViewController" id="GMb-Eo-ONx" customClass="LongTableViewController" customModule="_ndIteratio" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="LongTableViewController" title="Scroll Down to Colors to Read More" id="GMb-Eo-ONx" customClass="LongTableViewController" customModule="_ndIteratio" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="G3c-gx-aVq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2440,7 +2475,7 @@ Your true self is a witness that doesn't get stuck in drama or distracted by the
         <!--Page4View Controller-->
         <scene sceneID="KZ0-UM-nwu">
             <objects>
-                <viewController id="oHX-aV-p3n" userLabel="Page4View Controller" sceneMemberID="viewController">
+                <viewController title="Scroll Down to Read All" id="oHX-aV-p3n" userLabel="Page4View Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="VAd-rH-J6v"/>
                         <viewControllerLayoutGuide type="bottom" id="eR1-lT-ryV"/>
@@ -2478,7 +2513,7 @@ Your "road map," The Pathway, provided by this App helps the user learn to free
         <!--Page5View Controller-->
         <scene sceneID="oa3-ZJ-X6g">
             <objects>
-                <viewController id="iSJ-f3-h6g" userLabel="Page5View Controller" sceneMemberID="viewController">
+                <viewController title="Scroll Down to Read All" id="iSJ-f3-h6g" userLabel="Page5View Controller" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mcI-V8-TLL"/>
                         <viewControllerLayoutGuide type="bottom" id="da7-35-qbN"/>
@@ -2487,8 +2522,8 @@ Your "road map," The Pathway, provided by this App helps the user learn to free
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puJ-d6-pV7">
-                                <rect key="frame" x="16" y="20" width="343" height="692"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="puJ-d6-pV7">
+                                <rect key="frame" x="16" y="-13" width="343" height="692"/>
                                 <color key="backgroundColor" red="0.81250377941408514" green="1" blue="0.83190458173127224" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">EMOTIONAL MATURITY facilitates you to be able to respond honestly to events in the present without the intrusion of biased beliefs from the past: the capacity to act in your own best interests without seeking approval or permission. It is the result of resolving and completing life’s conflicts as they occur rather than avoiding or displacing them. Emotional freedom stems from self-acceptance, nothing to prove, having removed the obstacles that keep you in emotional debt (the unresolved old feelings that cause you to distort your view of the present).
 
@@ -2512,7 +2547,7 @@ To be free of emotional debt you must understand the meaning of your feelings an
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="clH-lv-AOE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2985" y="2910"/>
+            <point key="canvasLocation" x="2984.8000000000002" y="2909.5952023988007"/>
         </scene>
         <!--Click on Outside or Inside-->
         <scene sceneID="9nD-3Q-IMH">
