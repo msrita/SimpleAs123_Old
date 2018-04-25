@@ -135,7 +135,7 @@
                             <constraint firstItem="L4l-hF-Ud8" firstAttribute="top" secondItem="ZbS-qx-Ep6" secondAttribute="bottom" id="qSZ-wX-uZ8"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="9N3-K1-lNF"/>
+                    <navigationItem key="navigationItem" title="Click on 1, then 2, then 3, In Order" id="9N3-K1-lNF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Qm-n8-OKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -236,7 +236,7 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.97560347608564335" blue="0.78441547982624049" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="cGT-a2-8Eh"/>
+                    <navigationItem key="navigationItem" title="Click on Emoji of Your Feeling" id="cGT-a2-8Eh"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="i8u-bp-O71" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -869,6 +869,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Kub-HQ-rLC">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="t0T-FM-pdE">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="0.76034385989999997" green="0.8452000221" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -909,11 +916,11 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5UC-KY-OrC">
-                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="5UC-KY-OrC">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="0.675603226" green="1" blue="0.73500653810000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Synonyms: blameworthiness, shame, vengeful, a guilty conscience, pangs of conscience, concern, stigma, dodge, contrition, contriteness, remorse, disrepute, double-cross, plot, fault, flawed, wrong, pride, envy, evil, inexpedience, omission, charge, accountability, charge, abomination, culpability, self-loathing, self-reproach,
-compunction, disgrace, repentance, delinquency, error, wrongdoing, misconduct, vice, depravity, complicity, mortification, qualm, badness, mistake, corruption, failing, feloniousness, iniquity, malfeasance, ruefulness, second thoughts, slip, infamy, unrighteousness, burden,  wrong, self-condemnation, wickedness, woe, abashment, bait and switch, bunk, conspiracy, deceit, fraudulent, deficiency, damnation, covetousness, sloth, degraded, demerit, dereliction, diddling, disesteem, dishonor, foible, frailty, gluttony, gyp, humiliation, immorality, malicious, ill-repute, loss of face, remorsefulness, misdemeanor, affronting, misstep, peccadillo, flim-flam, scandal, self-disgust, smear, embarrassment, albatross, negligence, regret, blame, chagrin, treachery, trespass, violation, whitewash, feelings of inadequacy. It is  helpful to distinguish guilt from shame. A guilty feeling causes you to believe "I did something bad." Shame causes you to believe, "I am something bad, evil."  Shame goes far deeper than guilt all the way to your experience of self as somehow defective.</mutableString>
+                                <string key="text">Synonyms: blameworthiness, shame, vengeful, a guilty conscience, pangs of conscience, concern, stigma, dodge, contrition, contriteness, remorse, disrepute, double-cross, plot, fault, flawed, wrong, pride, envy, evil, inexpedience, omission, charge, accountability, charge, abomination, culpability, self-loathing, self-reproach,
+compunction, disgrace, repentance, delinquency, error, wrongdoing, misconduct, vice, depravity, complicity, mortification, qualm, badness, mistake, corruption, failing, feloniousness, iniquity, malfeasance, ruefulness, second thoughts, slip, infamy, unrighteousness, burden,  wrong, self-condemnation, wickedness, woe, abashment, bait and switch, bunk, conspiracy, deceit, fraudulent, deficiency, damnation, covetousness, sloth, degraded, demerit, dereliction, diddling, disesteem, dishonor, foible, frailty, gluttony, gyp, humiliation, immorality, malicious, ill-repute, loss of face, remorsefulness, misdemeanor, affronting, misstep, peccadillo, flim-flam, scandal, self-disgust, smear, embarrassment, albatross, negligence, regret, blame, chagrin, treachery, trespass, violation, whitewash, feelings of inadequacy. It is  helpful to distinguish guilt from shame. A guilty feeling causes you to believe "I did something bad." Shame causes you to believe, "I am something bad, evil."  Shame goes far deeper than guilt all the way to your experience of self as somehow defective.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -943,6 +950,13 @@ compunction, disgrace, repentance, delinquency, error, wrongdoing, misconduct, v
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lsY-nf-Xkn">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Goa-vm-ROC">
                                 <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="1" green="0.96473330999999996" blue="0.48754859389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -976,10 +990,17 @@ compunction, disgrace, repentance, delinquency, error, wrongdoing, misconduct, v
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-SG-oc8">
-                                <rect key="frame" x="16" y="0.0" width="343" height="637"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1lp-UC-GUZ">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1sO-SG-oc8">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="1" green="0.7757644481" blue="0.71439917630000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Again, find 1 word maybe here which picks feeling Type of Anger.                Synonyms: rage, vexation, exasperation, crossness, displeasure,  irritation, irked, irritability, indignation, pique, annoyance, wrath, outrage, irascibility, ill temper/ill humor, slow burn,  enraged, riled, aggravation, infuriated, ire,  irritated, exasperated,  vexed, peeved, maddened, put out, incensed, rubbed the wrong way, blood boiling, back up, seeing red, dander up, rattled cage, hackles rising; enmity, aggravated, ticked off, teed off, burned up, contrary, furious, fuming, acrimony, antagonism, animosity, fury, resentment, displeasure, smoldering, hatred, impatience, chagrin,        temper, vexation, violence, ranting, hissy fit, ballistic, hostile,  rabid, umbrage, conniption, piqued, distemper, gall, fired up, blow up, cat fits, ticked off, pissed off, huffy, miffed, petulant, rankled, rankling, riled, raving, soreness, stewed, stormy, tiff, tantrum,  mad, harsh, acrid, wrath, steamed up, seething, ruffled, bristling, chafed, inflamed, fret, on your nerves, stirred up, apoplectic, belligerent, caustic. </mutableString>
+                                <string key="text">Again, find 1 word maybe here which picks feeling Type of Anger.                Synonyms: rage, vexation, exasperation, crossness, displeasure,  irritation, irked, irritability, indignation, pique, annoyance, wrath, outrage, irascibility, ill temper/ill humor, slow burn,  enraged, riled, aggravation, infuriated, ire,  irritated, exasperated,  vexed, peeved, maddened, put out, incensed, rubbed the wrong way, blood boiling, back up, seeing red, dander up, rattled cage, hackles rising; enmity, aggravated, ticked off, teed off, burned up, contrary, furious, fuming, acrimony, antagonism, animosity, fury, resentment, displeasure, smoldering, hatred, impatience, chagrin,        temper, vexation, violence, ranting, hissy fit, ballistic, hostile,  rabid, umbrage, conniption, piqued, distemper, gall, fired up, blow up, cat fits, ticked off, pissed off, huffy, miffed, petulant, rankled, rankling, riled, raving, soreness, stewed, stormy, tiff, tantrum,  mad, harsh, acrid, wrath, steamed up, seething, ruffled, bristling, chafed, inflamed, fret, on your nerves, stirred up, apoplectic, belligerent, caustic. </string>
                                 <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -1009,8 +1030,15 @@ compunction, disgrace, repentance, delinquency, error, wrongdoing, misconduct, v
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cwA-5u-88C">
-                                <rect key="frame" x="16" y="0.0" width="343" height="667"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gI0-tv-d3Y">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="cwA-5u-88C">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="0.66709902860000003" green="0.70314068679999997" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Synonyms: dejection, desolation, despondent, despondence, despondency, disconsolateness, dispiritedness, doldrums, dolefulness, downheartedness, dreariness, dumps, forlornness, gloomy, gloominess, glumness, heartsickness, joylessness, melancholy, miserableness, moping, mournfulness, worthless, oppression, unhappiness, chronic sadness, bleak, abject, misery, deep sorrow, severe woe, thwarted perfectionism, a burden, despondency, a heavy heart, despair, desolation, morose, cheerless, dullness, hopelessness, constant upset, excessive  tearfulness, in the dumps, the doldrums, the blues, an endless funk, a blue funk, a state or spell of low spirits, lugubrious, suicidal ideation (vs. actual attempt) and rumination, drained, empty, acting recklessly, over sleeping/drinking, sleepless, no reason to live, stigmatized, self-pity, anguish, dolor, prolonged grief, extended mourning, somberness, agony, distress, misery, wretchedness, discouragement, disheartenment, moodiness, desperation, hopelessness, self-despair, boredom, ennui, tedium, dismalness, dreary, gray, morbidness, moroseness, haunting regret, foreboding, inactivity, withdrawal, self-isolating; Suicidal with means and a plan:  (800) 273-TALK (Suicide Hot Line)</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -2363,8 +2391,15 @@ compunction, disgrace, repentance, delinquency, error, wrongdoing, misconduct, v
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSv-U3-4xC">
-                                <rect key="frame" x="16" y="47" width="359" height="620"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gp0-tL-adi">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tSv-U3-4xC">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="0.91148029330000002" green="0.76717228709999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">The journey to EMOTIONAL MATURITY is a lifelong one, but the rewards begin as soon as you commit to taking it.
 The adult growth and development journey is determined and defined by childhood injuries which become our flaws as we enter adulthood. We must accept our flaws as the guides to where emotional growth is needed and to what lessons need to be learned.
@@ -2386,9 +2421,9 @@ The adult growth and development journey is determined and defined by childhood 
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="tSv-U3-4xC" firstAttribute="top" secondItem="tZd-pG-hd0" secondAttribute="bottom" id="26t-cL-gc4"/>
                             <constraint firstItem="tSv-U3-4xC" firstAttribute="bottom" secondItem="cPR-cI-d3E" secondAttribute="top" id="H4I-5i-tQb"/>
                             <constraint firstItem="tSv-U3-4xC" firstAttribute="leading" secondItem="fTj-TH-h2u" secondAttribute="leadingMargin" id="ZcN-Cw-jZ8"/>
-                            <constraint firstItem="tSv-U3-4xC" firstAttribute="top" secondItem="fTj-TH-h2u" secondAttribute="top" constant="20" symbolic="YES" id="bJ4-MD-K2z"/>
                             <constraint firstItem="tSv-U3-4xC" firstAttribute="trailing" secondItem="fTj-TH-h2u" secondAttribute="trailingMargin" id="suK-VY-yPu"/>
                         </constraints>
                     </view>
@@ -2446,8 +2481,15 @@ Unexpressed, aged anger, redirects inward against the self or is sustained unpro
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tr6-rk-iG2">
-                                <rect key="frame" x="16" y="20" width="343" height="639"/>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Faw-ad-00H">
+                                <rect key="frame" x="139" y="318" width="97" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tr6-rk-iG2">
+                                <rect key="frame" x="16" y="20" width="343" height="647"/>
                                 <color key="backgroundColor" red="1" green="0.97560347609999998" blue="0.78441547980000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <string key="text">Repressed feelings comprise emotional debt, those feelings that we cannot feel, that create our psychological defenses. Symptoms of defenses (avoidance, evasion, angry outbursts, addictive behaviors, etc.) make up a false self, extremely clever at hiding the pain from us. We distinguish the false self from the true self so that we may understand the part of us that is psychologically tasked with keeping us from pain/feeling,  recognizing/being overwhelmed by it: unhealthy ways of dealing with conflict.
 This false self armor of defenses eventually takes over to manage the personality, to keep thoughts and emotions at the surface level where the ego can manage living with the help of the survivalist brain. It is possible to navigate through an entire life at this surface level of personality without ever deepening below the ego's control and repetitions. To the extent that the personality functions on this superficial level is the extent to which the person is out of touch with reality and disconnected from others.
@@ -2463,7 +2505,7 @@ Your true self is a witness that doesn't get stuck in drama or distracted by the
                         <constraints>
                             <constraint firstItem="Tr6-rk-iG2" firstAttribute="top" secondItem="dd5-0n-rpJ" secondAttribute="bottom" id="2jb-Jh-b8s"/>
                             <constraint firstItem="Tr6-rk-iG2" firstAttribute="leading" secondItem="s9M-jz-VV9" secondAttribute="leadingMargin" id="IxZ-1I-9nF"/>
-                            <constraint firstItem="gAo-zJ-jTW" firstAttribute="top" secondItem="Tr6-rk-iG2" secondAttribute="bottom" constant="20" id="Lve-Mz-kXx"/>
+                            <constraint firstItem="gAo-zJ-jTW" firstAttribute="top" secondItem="Tr6-rk-iG2" secondAttribute="bottom" id="Lve-Mz-kXx"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Tr6-rk-iG2" secondAttribute="trailing" id="Vv5-NK-QxM"/>
                         </constraints>
                     </view>
